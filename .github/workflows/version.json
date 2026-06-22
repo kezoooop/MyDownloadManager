@@ -1,0 +1,11 @@
+{
+  "latest_version": "1.5.1",
+  "download_url": "https://github.com/YOUR_USERNAME/MyDownloadManager/releases/download/v1.5.1/MyDownloadManager_Setup.exe",
+  "release_notes": {
+    "en": "Bug fixes and performance improvements\n- Fixed download speed issues\n- Improved multi-connection stability",
+    "ar": "إصلاحات وتحسينات في الأداء\n- إصلاح مشاكل سرعة التحميل\n- تحسين استقرار التحميل متعدد الاتصالات"
+  },
+  "release_date": "2026-06-22",
+  "min_version": "1.4.0",
+  "force_update": false
+}
