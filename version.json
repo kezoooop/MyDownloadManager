@@ -1,0 +1,11 @@
+{
+  "latest_version": "1.5.1",
+  "download_url": "https://github.com/kezoooop/MyDownloadManager/releases/download/v1.5.1/MDM.Setup.V1.5.1.exe",
+  "release_notes": {
+    "en": "New update available!\n- Bug fixes\n- Performance improvements\n- Enhanced download speed",
+    "ar": "تحديث جديد متوفر!\n- إصلاحات\n- تحسينات الأداء\n- زيادة سرعة التحميل"
+  },
+  "release_date": "2026-06-22",
+  "min_version": "1.4.0",
+  "force_update": false
+}
