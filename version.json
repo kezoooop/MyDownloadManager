@@ -1,11 +1,11 @@
 {
-  "latest_version": "1.5.2",
-  "download_url": "https://github.com/kezoooop/MyDownloadManager/releases/download/v1.6.0/MDM.Setup.V1.5.2.exe",
+  "latest_version": "1.5.3",
+  "download_url": "https://github.com/kezoooop/MyDownloadManager/releases/download/V1.5.3/MDM.Setup.V1.5.3.exe",
   "release_notes": {
-    "en": "New features!\n- Added dark mode\n- Faster downloads\n- Bug fixes",
-    "ar": "ميزات جديدة!\n- إضافة الوضع المظلم\n- تحميل أسرع\n- إصلاحات"
+    "en": "New features!\n- Enhanced video grabbing\n- Improved TikTok video detection\n- Enhanced Instagram Reels & Stories\n- Advanced social media detection\n- Smarter auto-capture\n- Quick-Share latest version support\n- In-app updates via Check Updates button\n- Multi-threading fixes\n- Large file support (100GB+)",
+    "ar": "ميزات جديدة!\n- تحسين جلب الفيديوهات\n- تحسين اكتشاف فيديوهات تيك توك\n- تحسين ريلز وقصص انستجرام\n- كشف متقدم لمواقع التواصل\n- تحسين الالتقاط التلقائي للروابط\n- دعم أحدث إصدار من Quick-Share\n- تحديثات من داخل التطبيق\n- إصلاحات التحميل متعدد الخيوط\n- دعم الملفات الكبيرة (100 جيجابايت+)"
   },
-  "release_date": "2026-06-25",
+  "release_date": "2026-06-26",
   "min_version": "1.4.0",
   "force_update": false
 }
