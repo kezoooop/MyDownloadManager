@@ -98,7 +98,7 @@ The application also includes a **powerful playlist downloader** for YouTube, **
 
 ## 📄 How to Verify – كيفية التحقق
 
-You can confirm the app’s network behaviour with any of these tools:
+You can confirm the app's network behaviour with any of these tools:
 
 - **Windows Resource Monitor** (Network tab)
 - **Wireshark** – filter by `tcp.port == 8765`
@@ -117,7 +117,7 @@ All traffic will be limited to `127.0.0.1` and only when the browser extension i
 
 ## ⚖️ Disclaimer – إخلاء مسؤولية
 
-The software is provided “as is”, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
+The software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
 
 **يتم توفير البرنامج "كما هو"، دون أي ضمان من أي نوع، صريح أو ضمني، بما في ذلك على سبيل المثال لا الحصر ضمانات القابلية للتسويق، الملاءمة لغرض معين، وعدم التعدي. في أي حال من الأحوال لا يتحمل المؤلفون أو أصحاب حقوق الطبع والنشر المسؤولية عن أي مطالبة أو أضرار أو أي التزام آخر، سواء في دعوى عقد أو ضرر أو غير ذلك، الناشئة عن البرنامج أو استخدامه أو التعامل معه.**
 
@@ -128,7 +128,7 @@ The software is provided “as is”, without warranty of any kind, express or i
 For licensing inquiries, support, or security concerns, please contact:  
 للاستفسارات حول الترخيص، الدعم، أو مخاوف الأمان، يرجى التواصل عبر:
 
-- Email: [your‑email@example.com]
+- Email: **kamel.buisness@outlook.com**
 - Website: [https://mydownloadmanager.pages.dev/](https://mydownloadmanager.pages.dev/)
 
 ---
