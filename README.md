@@ -2,12 +2,26 @@
 
 <div align="center">
 
-![My Download Manager Logo](https://via.placeholder.com/200x200/0078D4/FFFFFF?text=MDM)
+<img src="help_images/wizard-small.png" alt="My Download Manager Logo" width="200" height="200">
 
-[![Version](https://img.shields.io/badge/version-3.1-blue.svg)](https://github.com/kezoooop/MyDownloadManager)
-[![Platform](https://img.shields.io/badge/platform-Windows-0078D4.svg)](https://github.com/kezoooop/MyDownloadManager)
-[![License](https://img.shields.io/badge/license-Proprietary-red.svg)](https://github.com/kezoooop/MyDownloadManager)
-[![Downloads](https://img.shields.io/badge/downloads-10M+-brightgreen.svg)](https://github.com/kezoooop/MyDownloadManager)
+# ⚡ My Download Manager (MDM)
+
+### *Accelerate Your Downloads by Up to 8x Faster!*
+
+[![Version](https://img.shields.io/badge/version-3.1-blue.svg?style=for-the-badge)](https://github.com/kezoooop/MyDownloadManager)
+[![Platform](https://img.shields.io/badge/platform-Windows-0078D4.svg?style=for-the-badge)](https://github.com/kezoooop/MyDownloadManager)
+[![Downloads](https://img.shields.io/badge/downloads-10M%2B-brightgreen.svg?style=for-the-badge)](https://github.com/kezoooop/MyDownloadManager)
+[![License](https://img.shields.io/badge/license-Proprietary-red.svg?style=for-the-badge)](https://github.com/kezoooop/MyDownloadManager)
+
+</div>
+
+---
+
+<div align="center">
+  
+### 🌟 **The Ultimate Download Manager for Windows** 🌟
+
+**Stop waiting for downloads - Start accelerating!**
 
 </div>
 
@@ -15,136 +29,241 @@
 
 ## 📖 Table of Contents | فهرس المحتويات
 
-- [English Version](#english-version)
-  - [Welcome](#welcome)
-  - [Key Features](#key-features)
-  - [Installation](#installation)
-  - [How to Use](#how-to-use)
-  - [Browser Extension Installation](#browser-extension-installation)
-  - [Important Notes](#important-notes)
+- [✨ Introduction](#-introduction)
+- [🔥 Key Features](#-key-features)
+- [📸 Application Showcase](#-application-showcase)
+- [🚀 Installation Guide](#-installation-guide)
+- [🎯 How to Use](#-how-to-use)
+- [🌐 Browser Extension Installation](#-browser-extension-installation)
+- [💡 Pro Tips](#-pro-tips)
+- [🛠️ Troubleshooting](#️-troubleshooting)
+- [📱 Connect With Us](#-connect-with-us)
 - [النسخة العربية](#النسخة-العربية)
-  - [ترحيب](#ترحيب)
-  - [الميزات الرئيسية](#الميزات-الرئيسية)
-  - [التثبيت](#التثبيت)
-  - [طريقة الاستخدام](#طريقة-الاستخدام)
-  - [تثبيت إضافة المتصفح](#تثبيت-إضافة-المتصفح)
-  - [ملاحظات هامة](#ملاحظات-هامة)
 
 ---
 
-# 🌟 English Version
-
-## Welcome
+## ✨ Introduction
 
 <div align="center">
 
-### ⚡ **Accelerate your downloads by up to 8 times!** ⚡
-
-**My Download Manager (MDM)** is a professional download accelerator designed to dramatically increase your download speeds, with intelligent resume, organization, and scheduling capabilities. Stop waiting for your downloads to finish — experience the speed and reliability of a truly professional download manager.
+### **Welcome to the Future of Downloading**
 
 </div>
 
-### ✨ Why Choose MDM?
+**My Download Manager (MDM)** is a next-generation download accelerator that revolutionizes how you download files and videos from the internet. Built with cutting-edge technology, MDM combines blazing-fast speeds with intelligent features that make downloading effortless.
 
-- 🚀 **Speed up to 8x faster** than standard browser downloads
-- 🔄 **Smart resume** for interrupted downloads
-- 📁 **Automatic organization** with smart folders
-- 🌐 **Universal compatibility** with all major websites
-- 🎬 **High-quality video downloads** up to 4K
-- 📋 **Browser integration** for one-click downloads
-- ⏰ **Advanced scheduling** for automated downloads
-- 🔐 **Hash verification** to ensure file integrity
-- 💼 **Portable mode** for settings on the go
+### Why MDM Stands Out:
+
+| Feature | Benefit |
+|---------|---------|
+| ⚡ **8x Faster Speeds** | Download large files in minutes, not hours |
+| 🎯 **Universal Support** | Works with ALL websites and file types |
+| 🔄 **Smart Resume** | Never lose your progress - resume from where you stopped |
+| 🎬 **4K Video Support** | Download high-quality videos from social media |
+| 📋 **One-Click Browser Integration** | Capture downloads directly from your browser |
+| ⏰ **Smart Scheduling** | Automate downloads at specific times |
+| 🔐 **File Integrity Verification** | Ensure your downloads are 100% intact |
 
 ---
 
-## Key Features
+## 🔥 Key Features
 
 <div align="center">
 
-| Feature | Description |
-|---------|-------------|
-| 🎬 **Video Download** | Download from YouTube, TikTok, Instagram, Facebook, Twitter/X, Pinterest, Vimeo, Dailymotion, Twitch, and more |
-| 📄 **File Download** | All file types: documents, archives, executables, images, audio |
-| 🎥 **4K Quality** | Up to 4K (2160p), 2K (1440p), 1080p, 720p, 480p, 360p |
-| 📋 **Playlist Support** | Download entire YouTube playlists with video selection |
-| 🌐 **Browser Integration** | Capture downloads directly from your browser |
-| 📋 **Clipboard Capture** | Auto-detect copied links and start downloads instantly |
-| ⏸️ **Pause & Resume** | Pause and resume downloads at any time |
-| ⚡ **Speed Control** | Global and per-download speed limits |
-| 📊 **Queue Manager** | Manage multiple downloads efficiently |
-| ⏰ **Advanced Scheduler** | Schedule downloads at specific times |
-| 🔐 **Hash Verification** | Verify file integrity with SHA-256 |
-| 📁 **Smart Folders** | Auto-organize downloads by source and type |
-| 🌍 **Proxy Support** | HTTP, SOCKS4, SOCKS5 proxy support |
-| 📊 **Bandwidth Quota** | Set daily/weekly download limits |
-| 🔌 **Auto Shutdown** | Shutdown, sleep, or hibernate after downloads complete |
-| 🎵 **Sound Alerts** | Audio notifications for download events |
+| Feature | Description | Icon |
+|---------|-------------|------|
+| **Video Download** | YouTube, TikTok, Instagram, Facebook, Twitter/X, Pinterest, Vimeo, Dailymotion, Twitch, and more | 🎬 |
+| **File Download** | All file types: documents, archives, executables, images, audio | 📄 |
+| **4K Quality** | Up to 4K (2160p), 2K (1440p), 1080p, 720p, 480p, 360p | 🎥 |
+| **Playlist Support** | Download entire YouTube playlists with video selection | 📋 |
+| **Browser Integration** | Capture downloads directly from your browser | 🌐 |
+| **Clipboard Capture** | Auto-detect copied links and start downloads instantly | 📋 |
+| **Pause & Resume** | Pause and resume downloads at any time | ⏸️ |
+| **Speed Control** | Global and per-download speed limits | ⚡ |
+| **Queue Manager** | Manage multiple downloads efficiently | 📊 |
+| **Advanced Scheduler** | Schedule downloads at specific times | ⏰ |
+| **Hash Verification** | Verify file integrity with SHA-256 | 🔐 |
+| **Smart Folders** | Auto-organize downloads by source and type | 📁 |
+| **Proxy Support** | HTTP, SOCKS4, SOCKS5 proxy support | 🌍 |
+| **Bandwidth Quota** | Set daily/weekly download limits | 📊 |
+| **Auto Shutdown** | Shutdown, sleep, or hibernate after downloads complete | 🔌 |
+| **Sound Alerts** | Audio notifications for download events | 🎵 |
+| **Portable Mode** | Carry your settings anywhere | 💼 |
 
 </div>
 
 ---
 
-## Installation
+## 📸 Application Showcase
+
+### 🖥️ Main Interface
+
+<div align="center">
+  <img src="help_images/main_window_labeled.png" alt="Main Window" width="90%">
+  <br>
+  <em>Figure 1: The Main Interface - Your Command Center for Downloads</em>
+</div>
+
+### 📥 Download Options Dialog
+
+<div align="center">
+  <img src="help_images/download_options_dialog.png" alt="Download Options" width="70%">
+  <br>
+  <em>Figure 2: Advanced Download Options - Customize Your Downloads</em>
+</div>
+
+### 📊 Playlist Manager
+
+<div align="center">
+  <img src="help_images/playlist_manager.png" alt="Playlist Manager" width="90%">
+  <br>
+  <em>Figure 3: Playlist Manager - Download Multiple Videos with Ease</em>
+</div>
+
+### 📋 Queue Manager
+
+<div align="center">
+  <img src="help_images/queue_manager.png" alt="Queue Manager" width="80%">
+  <br>
+  <em>Figure 4: Queue Manager - Organize Your Downloads Efficiently</em>
+</div>
+
+### 🖱️ Context Menus
+
+<div align="center">
+  <img src="help_images/context_menu_active.png" alt="Context Menu" width="70%">
+  <br>
+  <em>Figure 5: Right-Click Context Menu - Quick Access to All Features</em>
+</div>
+
+### 📱 Mini Progress Window
+
+<div align="center">
+  <img src="help_images/mini_progress.png" alt="Mini Progress" width="40%">
+  <br>
+  <em>Figure 6: Mini Progress Window - Stay Updated While Working</em>
+</div>
+
+### 🔽 System Tray Menu
+
+<div align="center">
+  <img src="help_images/tray_menu.png" alt="Tray Menu" width="40%">
+  <br>
+  <em>Figure 7: System Tray Menu - Access MDM from Anywhere</em>
+</div>
+
+### 📱 Social Media Download - TikTok Example
+
+<div align="center">
+  <img src="help_images/tiktok_share_copy.png" alt="TikTok Download" width="60%">
+  <br>
+  <em>Figure 8: Download from Social Media - Just Share & Copy Link!</em>
+</div>
+
+---
+
+## 🚀 Installation Guide
 
 ### System Requirements
-- **OS:** Windows 7, 8, 10, 11 (64-bit recommended)
-- **RAM:** 2 GB minimum (4 GB recommended)
-- **Storage:** 200 MB free space
-- **Internet:** Broadband connection for downloads
+
+| Component | Minimum | Recommended |
+|-----------|---------|-------------|
+| **OS** | Windows 7 | Windows 10/11 |
+| **RAM** | 2 GB | 4 GB |
+| **Storage** | 200 MB | 500 MB |
+| **Internet** | Broadband | High-Speed Broadband |
 
 ### Step-by-Step Installation
 
-1. **Download** the latest release from our [releases page](https://github.com/kezoooop/MyDownloadManager/releases)
+<div align="center">
 
-2. **Extract** the archive using WinRAR, 7-Zip, or any ZIP utility:
+#### Step 1: Extract the Archive
 
-   ![Extract Archive](https://via.placeholder.com/400x200/2a2a3b/FFFFFF?text=Extract+Archive)
+</div>
 
-3. **Run** the installer `setup.exe` in the extracted folder
+<div align="center">
+  <img src="help_images/extension1.png" alt="Step 1: Extract" width="60%">
+  <br>
+  <em>Extract using WinRAR, 7-Zip, or any ZIP utility</em>
+</div>
 
-4. **Follow** the on-screen instructions to complete installation
+<div align="center">
 
-5. **Launch** the application from your desktop or Start Menu
+#### Step 2: Locate Setup Folder
+
+</div>
+
+<div align="center">
+  <img src="help_images/extension2.png" alt="Step 2: Setup" width="60%">
+  <br>
+  <em>You'll find two folders: setup and extension</em>
+</div>
+
+<div align="center">
+
+#### Step 3: Run Installer
+
+</div>
+
+<div align="center">
+  <img src="help_images/extension3.png" alt="Step 3: Install" width="60%">
+  <br>
+  <em>Run setup.exe and follow the installation wizard</em>
+</div>
+
+<div align="center">
+
+#### Step 4: Launch MDM
+
+</div>
+
+<div align="center">
+  <img src="help_images/main_window_labeled.png" alt="Step 4: Launch" width="80%">
+  <br>
+  <em>Launch from desktop or Start Menu</em>
+</div>
 
 ---
 
-## How to Use
+## 🎯 How to Use
 
-### 1. Start a Download
+### 🚀 Quick Start Guide
 
+1. **Copy** your download link (video or file URL)
+2. **Paste** it into the URL field in MDM
+3. **Select** download type (File/Video)
+4. **Choose** your save folder
+5. **Click** "Download Now"
+6. **Configure** options in the dialog
+7. **Start** downloading!
+
+### 🎮 Power User Features
+
+#### Smart Folders
 ```
-1. Copy your download link (video or file URL)
-2. Paste it into the URL field in MDM
-3. Select download type (File/Video)
-4. Choose your save folder
-5. Click "Download Now"
-6. Configure options in the dialog (filename, category, description)
-7. Click "Start Download" to begin immediately, or "Download Later" to queue it
+Downloads/
+├── Videos/
+│   ├── YouTube/
+│   │   ├── Channel Name/
+│   │   └── Playlist Name/
+│   ├── TikTok/
+│   └── Instagram/
+├── Audio/
+├── Documents/
+└── Programs/
 ```
 
-![Download Interface](https://via.placeholder.com/800x400/1e1e2f/FFFFFF?text=Download+Interface)
+#### Speed Control
+- **Global Limit:** Set overall download speed
+- **Per-Download Limit:** Set individual speed limits
+- **Bandwidth Quota:** Set daily/weekly limits
 
-### 2. Manage Active Downloads
-
-- **Pause/Resume:** Click the pause/resume button on any active download
-- **Cancel:** Remove the download and delete partial files
-- **Speed Limit:** Right-click to set per-download speed limits
-- **Properties:** View detailed information about any download
-
-### 3. Completed Downloads
-
-- **Open File:** Double-click any completed download to open it
-- **Open Folder:** Right-click and select "Open File Location"
-- **Rename:** Right-click and select "Rename" to change the filename
-- **Delete:** Remove the file from your system
-
-### 4. Advanced Features
-
-- **Playlist Manager:** Download entire YouTube playlists with selective video choices
-- **Queue Manager:** View and manage all pending downloads
-- **Scheduled Downloads:** Set downloads to start at specific times
-- **Smart Folders:** Auto-organize files by source (YouTube channel, platform)
+#### Post-Download Actions
+- 🔌 **Shutdown PC**
+- 💤 **Sleep Mode**
+- 🔄 **Hibernate**
+- 📜 **Custom Script**
+- ⏰ **Delayed Actions** (0-120 minutes)
 
 ---
 
@@ -152,134 +271,264 @@
 
 <div align="center">
 
-### **Add the MDM Browser Extension**
-
-The browser extension allows you to capture download links from your browser with a single click.
+### **Add MDM to Your Browser!**
 
 </div>
 
 ### Step-by-Step Guide
 
 <div align="center">
-<img src="https://via.placeholder.com/600x300/0078D4/FFFFFF?text=Extension+Installation+Guide" width="80%">
+
+#### Step 1: Open Browser Extensions
+
 </div>
 
-**1. Extract the Program Archive**
+<div align="center">
+  <img src="help_images/extension4.png" alt="Open Extensions" width="60%">
+  <br>
+  <em>Click the three dots → Extensions → Manage Extensions</em>
+</div>
 
-First, extract the downloaded program using WinRAR or 7-Zip.
+<div align="center">
 
-![Step 1](https://via.placeholder.com/500x150/1a1a2e/FFFFFF?text=Step+1%3A+Extract+Archive)
+#### Step 2: Enable Developer Mode
 
-**2. Locate the Extension Folder**
+</div>
 
-After extraction, you'll find two folders: **`setup`** and **`extension`**.
+<div align="center">
+  <img src="help_images/extension5.png" alt="Developer Mode" width="60%">
+  <br>
+  <em>Toggle Developer Mode in the top right</em>
+</div>
 
-![Step 2](https://via.placeholder.com/500x150/1a1a2e/FFFFFF?text=Step+2%3A+Locate+Extension+Folder)
+<div align="center">
 
-**3. Install the Main Program First**
+#### Step 3: Load Unpacked Extension
 
-Run the installer inside the **`setup`** folder.
+</div>
 
-![Step 3](https://via.placeholder.com/500x150/1a1a2e/FFFFFF?text=Step+3%3A+Run+Installer)
+<div align="center">
+  <img src="help_images/extension6.png" alt="Load Unpacked" width="60%">
+  <br>
+  <em>Click "Load Unpacked" and select the extension folder</em>
+</div>
 
-**4. Open Your Browser**
+<div align="center">
 
-Open any Chromium-based browser: **Microsoft Edge**, **Google Chrome**, **Opera**, or **Firefox**.
+#### Step 4: Browse to Extension Folder
 
-**5. Access Extensions Menu**
+</div>
 
-Click the three dots menu (top right) → **Extensions** → **Manage Extensions**.
+<div align="center">
+  <img src="help_images/extnsion7.png" alt="Browse Folder" width="60%">
+  <br>
+  <em>Navigate to the extension folder in your extracted files</em>
+</div>
 
-![Step 5](https://via.placeholder.com/500x150/1a1a2e/FFFFFF?text=Step+5%3A+Manage+Extensions)
+<div align="center">
 
-**6. Enable Developer Mode**
+#### Step 5: Select the Folder
 
-Toggle **Developer Mode** in the top-right corner of the Extensions page.
+</div>
 
-![Step 6](https://via.placeholder.com/500x150/1a1a2e/FFFFFF?text=Step+6%3A+Enable+Developer+Mode)
+<div align="center">
+  <img src="help_images/extension8.png" alt="Select Folder" width="60%">
+  <br>
+  <em>Click "Select Folder" to load the extension</em>
+</div>
 
-**7. Load Unpacked Extension**
+<div align="center">
 
-Click **Load Unpacked** and navigate to the **`extension`** folder from step 2.
+#### Step 6: Extension Loaded
 
-![Step 7](https://via.placeholder.com/500x150/1a1a2e/FFFFFF?text=Step+7%3A+Load+Unpacked)
+</div>
 
-**8. Select the Extension Folder**
+<div align="center">
+  <img src="help_images/extension9.png" alt="Extension Loaded" width="60%">
+  <br>
+  <em>The extension is now loaded in your browser</em>
+</div>
 
-Select the entire **`extension`** folder and click **Select Folder**.
+<div align="center">
 
-![Step 8](https://via.placeholder.com/500x150/1a1a2e/FFFFFF?text=Step+8%3A+Select+Folder)
+#### Step 7: Find the Extension
 
-**9. ✅ Installation Complete!**
+</div>
 
-The extension is now installed. **Pin it** to your toolbar for easy access.
+<div align="center">
+  <img src="help_images/extension10.png" alt="Find Extension" width="60%">
+  <br>
+  <em>Find MDM in your extensions list</em>
+</div>
 
-![Step 9](https://via.placeholder.com/500x150/1a1a2e/FFFFFF?text=Step+9%3A+Extension+Installed!)
+<div align="center">
+
+#### Step 8: ✅ Complete!
+
+</div>
+
+<div align="center">
+  <img src="help_images/extension11.png" alt="Complete" width="60%">
+  <br>
+  <em>Extension installed successfully!</em>
+</div>
+
+<div align="center">
+
+#### Step 9: Pin to Toolbar
+
+</div>
+
+<div align="center">
+  <img src="help_images/extension12.png" alt="Pin Extension" width="60%">
+  <br>
+  <em>Pin the extension for quick access</em>
+</div>
+
+<div align="center">
+
+#### Step 10: Ready to Use!
+
+</div>
+
+<div align="center">
+  <img src="help_images/extension13.png" alt="Ready" width="60%">
+  <br>
+  <em>MDM is now ready to capture your downloads!</em>
+</div>
 
 ---
 
-## 📋 Important Notes
+## 💡 Pro Tips
 
-### 🎬 Social Media Videos
-> ⚠️ **Important:** Direct download buttons on social media sites often fail. Always use the **"Share → Copy Link"** method for reliable downloads.
+### 🎬 Video Downloads
+- **YouTube:** Use "Share → Copy Link" for best results
+- **TikTok:** Always use the share link method
+- **Instagram:** Copy link from the post
+- **Facebook:** Use the post's share link
 
 ### 🔐 File Integrity
-- Enable **Hash Verification** in Settings → Advanced Video to automatically verify downloaded files
-- MDM uses SHA-256 for the most reliable verification
+- Enable Hash Verification in Settings
+- MDM uses SHA-256 for verification
+- Automatically verifies downloads
 
 ### 💼 Portable Mode
-- Create a **`portable.ini`** file in the application folder to enable portable mode
-- Settings will be saved in `settings.ini` instead of the Windows Registry
+- Create `portable.ini` in app folder
+- Settings saved in `settings.ini`
+- No registry changes needed
 
-### 🌍 Proxy Support
-- Configure proxies in Settings → Network & Proxy
-- Supports HTTP, SOCKS4, and SOCKS5 protocols
+### 🌍 Proxy Configuration
+- HTTP, SOCKS4, SOCKS5 support
+- Username/password authentication
+- Apply to all downloads
 
-### 🔌 Post-Download Actions
-- Right-click any active download → **Shutdown Options**
-- Choose: Shutdown, Sleep, Hibernate, or Custom Script
-- Set delays from 0 to 120 minutes
+---
+
+## 🛠️ Troubleshooting
+
+| Issue | Solution |
+|-------|----------|
+| **Download Doesn't Start** | Check internet connection and firewall |
+| **4K Video Fails** | Install ffmpeg (bundled with MDM) |
+| **Extension Not Working** | Ensure MDM is running and port 8765 is open |
+| **Slow Downloads** | Check speed limits and bandwidth quota |
+| **File Integrity Error** | Redownload the file |
+
+---
+
+## 📱 Connect With Us
+
+<div align="center">
+
+### 📲 **Follow Us for Updates & Support**
+
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/profile.php?id=61562014983841)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@kamel_ahmed)
+[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/kamelahmed306)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kezoooop)
+[![Twitter/X](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/the_starkk)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kamel-ahmed-a844352aa)
+[![Personal Website](https://img.shields.io/badge/Website-00A86B?style=for-the-badge&logo=google-chrome&logoColor=white)](https://kamelahmed.netlify.app)
+
+</div>
+
+---
+
+## 👨‍💻 About the Developer
+
+<div align="center">
+
+### **Kamel Ahmed**
+#### *Software Engineer & Developer | Code Security Analyst | Vulnerability Expert*
+
+</div>
+
+- 🎓 Studied at British Academy of Computer Science, London
+- 🛡️ First Arabic security program with 10M+ downloads
+- ✍️ Senior Technical Editor at Xdev global platform
+- 📚 Head and Lecturer at Digital Egypt Program
+- 💻 Expert in: Code Analysis, Application Security, 3D Design
+
+---
+
+<div align="center">
+
+### ❤️ **Support the Developer** ❤️
+
+[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/kamelahmed306)
+
+---
+
+**© 2026 My Download Manager - Ultimate Final Edition. All rights reserved.**
+
+*Made with ❤️ by [Kamel Ahmed](https://kamelahmed.netlify.app)*
+
+</div>
 
 ---
 
 # 🌟 النسخة العربية
 
-## ترحيب
-
 <div align="center">
 
-### ⚡ **ضاعف سرعة تحميلاتك حتى 8 مرات!** ⚡
+<img src="help_images/wizard-small.png" alt="مدير التحميلات المتقدم" width="200" height="200">
 
-**مدير التحميلات المتقدم (MDM)** هو مسرع تحميل احترافي مصمم لزيادة سرعة تحميلاتك بشكل كبير، مع إمكانية الاستئناف الذكي، التنظيم، والجدولة المتقدمة. توقف عن انتظار تحميلاتك — اختبر السرعة والموثوقية من مدير تحميل احترافي حقاً.
+# ⚡ مدير التحميلات المتقدم (MDM)
+
+### *ضاعف سرعة تحميلاتك حتى 8 مرات!*
 
 </div>
 
-### ✨ لماذا تختار MDM؟
+---
 
-- 🚀 **سرعة تصل إلى 8 أضعاف** سرعة تحميل المتصفح العادية
-- 🔄 **استئناف ذكي** للتحميلات المتقطعة
-- 📁 **تنظيم تلقائي** مع مجلدات ذكية
-- 🌐 **توافق عالمي** مع جميع المواقع الرئيسية
-- 🎬 **تحميل فيديوهات بجودة عالية** تصل إلى 4K
-- 📋 **تكامل مع المتصفح** للتحميل بنقرة واحدة
-- ⏰ **جدولة متقدمة** للتحميلات الآلية
-- 🔐 **التحقق من التجزئة** لضمان سلامة الملفات
-- 💼 **الوضع المحمول** للإعدادات أثناء التنقل
+## ✨ مقدمة
+
+**مدير التحميلات المتقدم (MDM)** هو مسرع تحميل من الجيل التالي يحدث ثورة في طريقة تحميلك للملفات والفيديوهات من الإنترنت. بُني MDM بأحدث التقنيات، ويجمع بين السرعات الخاطفة والميزات الذكية التي تجعل التحميل سهلاً وممتعاً.
+
+### لماذا MDM مميز؟
+
+| الميزة | الفائدة |
+|--------|---------|
+| ⚡ **سرعة 8 أضعاف** | تحميل الملفات الكبيرة في دقائق بدلاً من ساعات |
+| 🎯 **دعم شامل** | يعمل مع جميع المواقع وأنواع الملفات |
+| 🔄 **استئناف ذكي** | لا تفقد تقدمك أبداً - استأنف من حيث توقفت |
+| 🎬 **جودة 4K** | تحميل فيديوهات عالية الجودة من وسائل التواصل |
+| 📋 **تكامل المتصفح** | التقاط التحميلات مباشرة من متصفحك |
+| ⏰ **جدولة ذكية** | أتمتة التحميلات في أوقات محددة |
+| 🔐 **التحقق من سلامة الملفات** | تأكد من أن تحميلاتك سليمة 100% |
 
 ---
 
-## الميزات الرئيسية
-
-<div align="center">
+## 🔥 الميزات الرئيسية
 
 | الميزة | الوصف |
 |--------|-------|
-| 🎬 **تحميل الفيديو** | تحميل من يوتيوب، تيك توك، انستجرام، فيسبوك، تويتر/إكس، بنترست، فيميو، ديلي موشن، تويتش، والمزيد |
+| 🎬 **تحميل الفيديو** | يوتيوب، تيك توك، انستجرام، فيسبوك، تويتر/إكس، بنترست، فيميو، ديلي موشن، تويتش |
 | 📄 **تحميل الملفات** | جميع أنواع الملفات: مستندات، أرشيف، برامج، صور، صوت |
 | 🎥 **جودة 4K** | حتى 4K (2160p)، 2K (1440p)، 1080p، 720p، 480p، 360p |
-| 📋 **قوائم التشغيل** | تحميل قوائم تشغيل يوتيوب كاملة مع اختيار الفيديوهات |
+| 📋 **قوائم التشغيل** | تحميل قوائم تشغيل يوتيوب كاملة |
 | 🌐 **تكامل المتصفح** | التقاط التحميلات مباشرة من المتصفح |
-| 📋 **التقاط الحافظة** | اكتشاف الروابط المنسوخة تلقائياً وبدء التحميل فوراً |
+| 📋 **التقاط الحافظة** | اكتشاف الروابط المنسوخة تلقائياً |
 | ⏸️ **إيقاف واستئناف** | إيقاف واستئناف التحميلات في أي وقت |
 | ⚡ **التحكم بالسرعة** | حدود سرعة عامة وخاصة لكل تحميل |
 | 📊 **مدير الطابور** | إدارة تحميلات متعددة بكفاءة |
@@ -290,69 +539,91 @@ The extension is now installed. **Pin it** to your toolbar for easy access.
 | 📊 **حصة النطاق الترددي** | تحديد حدود تحميل يومية/أسبوعية |
 | 🔌 **إيقاف التشغيل التلقائي** | إيقاف التشغيل، السكون، أو الإسبات بعد اكتمال التحميلات |
 | 🎵 **تنبيهات صوتية** | إشعارات صوتية لأحداث التحميل |
+| 💼 **الوضع المحمول** | احمل إعداداتك معك أينما ذهبت |
 
+---
+
+## 📸 عرض التطبيق
+
+### 🖥️ الواجهة الرئيسية
+
+<div align="center">
+  <img src="help_images/main_window_labeled.png" alt="الواجهة الرئيسية" width="90%">
+  <br>
+  <em>الشكل 1: الواجهة الرئيسية - مركز قيادة التحميلات</em>
+</div>
+
+### 📥 خيارات التحميل
+
+<div align="center">
+  <img src="help_images/download_options_dialog.png" alt="خيارات التحميل" width="70%">
+  <br>
+  <em>الشكل 2: خيارات التحميل المتقدمة</em>
+</div>
+
+### 📊 مدير قوائم التشغيل
+
+<div align="center">
+  <img src="help_images/playlist_manager.png" alt="مدير قوائم التشغيل" width="90%">
+  <br>
+  <em>الشكل 3: تحميل قوائم التشغيل بسهولة</em>
+</div>
+
+### 📋 مدير الطابور
+
+<div align="center">
+  <img src="help_images/queue_manager.png" alt="مدير الطابور" width="80%">
+  <br>
+  <em>الشكل 4: تنظيم التحميلات بكفاءة</em>
+</div>
+
+### 🔽 قائمة شريط المهام
+
+<div align="center">
+  <img src="help_images/tray_menu.png" alt="قائمة شريط المهام" width="40%">
+  <br>
+  <em>الشكل 5: الوصول إلى MDM من أي مكان</em>
 </div>
 
 ---
 
-## التثبيت
+## 🚀 دليل التثبيت
 
-### متطلبات النظام
-- **نظام التشغيل:** Windows 7, 8, 10, 11 (نسخة 64-bit موصى بها)
-- **الذاكرة:** 2 GB كحد أدنى (4 GB موصى بها)
-- **التخزين:** 200 MB مساحة خالية
-- **الإنترنت:** اتصال عريض النطاق للتحميلات
+<div align="center">
 
-### خطوات التثبيت
+#### الخطوة 1: فك ضغط الملف
 
-1. **تحميل** أحدث إصدار من [صفحة الإصدارات](https://github.com/kezoooop/MyDownloadManager/releases)
+</div>
 
-2. **فك الضغط** باستخدام WinRAR، 7-Zip، أو أي أداة ضغط
+<div align="center">
+  <img src="help_images/extension1.png" alt="فك الضغط" width="60%">
+  <br>
+  <em>فك الضغط باستخدام WinRAR أو 7-Zip</em>
+</div>
 
-3. **تشغيل** المثبت `setup.exe` في المجلد المستخرج
+<div align="center">
 
-4. **اتباع** التعليمات على الشاشة لإكمال التثبيت
+#### الخطوة 2: تحديد مجلد التثبيت
 
-5. **تشغيل** البرنامج من سطح المكتب أو قائمة ابدأ
+</div>
 
----
+<div align="center">
+  <img src="help_images/extension2.png" alt="مجلد التثبيت" width="60%">
+  <br>
+  <em>ستجد مجلدين: setup و extension</em>
+</div>
 
-## طريقة الاستخدام
+<div align="center">
 
-### 1. بدء تحميل جديد
+#### الخطوة 3: تشغيل المثبت
 
-```
-1. انسخ رابط التحميل (فيديو أو ملف)
-2. الصقه في حقل الرابط في MDM
-3. اختر نوع التحميل (ملف/فيديو)
-4. اختر مجلد الحفظ
-5. اضغط "تحميل الآن"
-6. عدل الخيارات في مربع الحوار (الاسم، الفئة، الوصف)
-7. اختر "بدء التحميل" للبدء فوراً، أو "تحميل لاحقاً" للإضافة للطابور
-```
+</div>
 
-![واجهة التحميل](https://via.placeholder.com/800x400/1e1e2f/FFFFFF?text=واجهة+التحميل)
-
-### 2. إدارة التحميلات النشطة
-
-- **إيقاف/استئناف:** اضغط زر الإيقاف/الاستئناف على أي تحميل نشط
-- **إلغاء:** حذف التحميل والملفات الجزئية
-- **حد السرعة:** انقر بزر الماوس الأيمن لتعيين حدود سرعة خاصة
-- **خصائص:** عرض معلومات مفصلة عن أي تحميل
-
-### 3. التحميلات المكتملة
-
-- **فتح الملف:** انقر نقراً مزدوجاً على أي تحميل مكتمل لفتحه
-- **فتح المجلد:** انقر بزر الماوس الأيمن واختر "فتح موقع الملف"
-- **إعادة تسمية:** انقر بزر الماوس الأيمن واختر "إعادة تسمية"
-- **حذف:** إزالة الملف من النظام
-
-### 4. الميزات المتقدمة
-
-- **مدير قوائم التشغيل:** تحميل قوائم تشغيل يوتيوب كاملة مع اختيار فيديوهات محددة
-- **مدير الطابور:** عرض وإدارة جميع التحميلات المنتظرة
-- **التحميلات المجدولة:** تعيين تحميلات لتبدأ في أوقات محددة
-- **المجلدات الذكية:** تنظيم تلقائي للملفات حسب المصدر (قناة يوتيوب، المنصة)
+<div align="center">
+  <img src="help_images/extension3.png" alt="تشغيل المثبت" width="60%">
+  <br>
+  <em>قم بتشغيل setup.exe واتبع التعليمات</em>
+</div>
 
 ---
 
@@ -360,103 +631,120 @@ The extension is now installed. **Pin it** to your toolbar for easy access.
 
 <div align="center">
 
-### **أضف إضافة MDM للمتصفح**
-
-تتيح لك إضافة المتصفح التقاط روابط التحميل من متصفحك بنقرة واحدة.
+#### الخطوة 1: فتح إضافات المتصفح
 
 </div>
 
-### دليل خطوة بخطوة
+<div align="center">
+  <img src="help_images/extension4.png" alt="إضافات المتصفح" width="60%">
+  <br>
+  <em>اضغط على النقاط الثلاث → الإضافات → إدارة الإضافات</em>
+</div>
 
-**1. فك ضغط أرشيف البرنامج**
+<div align="center">
 
-أولاً، قم بفك ضغط البرنامج الذي تم تحميله باستخدام WinRAR أو 7-Zip.
+#### الخطوة 2: تفعيل وضع المطور
 
-![الخطوة 1](https://via.placeholder.com/500x150/1a1a2e/FFFFFF?text=الخطوة+1%3A+فك+الضغط)
+</div>
 
-**2. تحديد مجلد الإضافة**
+<div align="center">
+  <img src="help_images/extension5.png" alt="وضع المطور" width="60%">
+  <br>
+  <em>فعّل وضع المطور في أعلى اليمين</em>
+</div>
 
-بعد الفك، ستجد مجلدين: **`setup`** و **`extension`**.
+<div align="center">
 
-![الخطوة 2](https://via.placeholder.com/500x150/1a1a2e/FFFFFF?text=الخطوة+2%3A+تحديد+مجلد+الإضافة)
+#### الخطوة 3: تحميل الإضافة
 
-**3. تثبيت البرنامج أولاً**
+</div>
 
-قم بتشغيل المثبت داخل مجلد **`setup`**.
+<div align="center">
+  <img src="help_images/extension6.png" alt="تحميل الإضافة" width="60%">
+  <br>
+  <em>اضغط "تحميل غير معبأ" واختر مجلد الإضافة</em>
+</div>
 
-![الخطوة 3](https://via.placeholder.com/500x150/1a1a2e/FFFFFF?text=الخطوة+3%3A+تشغيل+المثبت)
+<div align="center">
 
-**4. فتح المتصفح**
+#### الخطوة 4: ✅ اكتمل التثبيت!
 
-افتح أي متصفح قائم على Chromium: **Microsoft Edge**، **Google Chrome**، **Opera**، أو **Firefox**.
+</div>
 
-**5. الوصول إلى قائمة الإضافات**
-
-اضغط على النقاط الثلاث (أعلى اليمين) → **Extensions** → **Manage Extensions**.
-
-![الخطوة 5](https://via.placeholder.com/500x150/1a1a2e/FFFFFF?text=الخطوة+5%3A+إدارة+الإضافات)
-
-**6. تفعيل وضع المطور**
-
-فعّل **Developer Mode** في الزاوية العلوية اليمنى من صفحة الإضافات.
-
-![الخطوة 6](https://via.placeholder.com/500x150/1a1a2e/FFFFFF?text=الخطوة+6%3A+تفعيل+وضع+المطور)
-
-**7. تحميل الإضافة غير المعبأة**
-
-اضغط **Load Unpacked** وانتقل إلى مجلد **`extension`** من الخطوة 2.
-
-![الخطوة 7](https://via.placeholder.com/500x150/1a1a2e/FFFFFF?text=الخطوة+7%3A+تحميل+الإضافة)
-
-**8. اختيار مجلد الإضافة**
-
-حدد مجلد **`extension`** بالكامل واضغط **Select Folder**.
-
-![الخطوة 8](https://via.placeholder.com/500x150/1a1a2e/FFFFFF?text=الخطوة+8%3A+اختيار+المجلد)
-
-**9. ✅ اكتمل التثبيت!**
-
-تم تثبيت الإضافة بنجاح. **ثبتها** في شريط الأدوات للوصول السريع.
-
-![الخطوة 9](https://via.placeholder.com/500x150/1a1a2e/FFFFFF?text=الخطوة+9%3A+تم+التثبيت!)
+<div align="center">
+  <img src="help_images/extension11.png" alt="تم التثبيت" width="60%">
+  <br>
+  <em>تم تثبيت الإضافة بنجاح!</em>
+</div>
 
 ---
 
-## 📋 ملاحظات هامة
+## 📱 تواصل معنا
 
-### 🎬 فيديوهات وسائل التواصل
-> ⚠️ **هام:** أزرار التحميل المباشر في مواقع التواصل غالباً لا تعمل. استخدم دائماً طريقة **"مشاركة → نسخ الرابط"** لتحميل موثوق.
+<div align="center">
 
-### 🔐 سلامة الملفات
-- فعّل **التحقق من التجزئة** في الإعدادات → الفيديو المتقدم للتحقق التلقائي من الملفات المحملة
-- يستخدم MDM خوارزمية SHA-256 للتحقق الأكثر موثوقية
+### 📲 **تابعنا للتحديثات والدعم**
 
-### 💼 الوضع المحمول
-- أنشئ ملف **`portable.ini`** في مجلد التطبيق لتفعيل الوضع المحمول
-- سيتم حفظ الإعدادات في `settings.ini` بدلاً من سجل النظام
+[![Facebook](https://img.shields.io/badge/فيسبوك-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/profile.php?id=61562014983841)
+[![YouTube](https://img.shields.io/badge/يوتيوب-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@kamel_ahmed)
+[![PayPal](https://img.shields.io/badge/باي-بال-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/kamelahmed306)
+[![GitHub](https://img.shields.io/badge/جيت-هاب-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kezoooop)
+[![Twitter/X](https://img.shields.io/badge/تويتر-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/the_starkk)
+[![LinkedIn](https://img.shields.io/badge/لينكد-إن-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kamel-ahmed-a844352aa)
 
-### 🌍 دعم الوكيل
-- قم بتكوين الوكيل في الإعدادات → الشبكة والوكيل
-- يدعم بروتوكولات HTTP، SOCKS4، و SOCKS5
-
-### 🔌 إجراءات ما بعد التحميل
-- انقر بزر الماوس الأيمن على أي تحميل نشط → خيارات الإيقاف
-- اختر: إيقاف التشغيل، السكون، الإسبات، أو سكربت مخصص
-- حدد تأخيراً من 0 إلى 120 دقيقة
+</div>
 
 ---
 
 <div align="center">
 
-### ❤️ Support the Developer | ادعم المطور ❤️
+### ❤️ **ادعم المطور** ❤️
 
-[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/kamelahmed306)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kezoooop)
+[![PayPal](https://img.shields.io/badge/باي-بال-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/kamelahmed306)
 
 ---
 
-**© 2026 My Download Manager - Ultimate Final Edition. All rights reserved.**
+**© 2026 مدير التحميلات المتقدم - النسخة النهائية المطورة. جميع الحقوق محفوظة.**
 
-Made with ❤️ by [Kamel Ahmed](https://kamelahmed.netlify.app)
+*تم الإنتاج بحب ❤️ بواسطة [كامل أحمد](https://kamelahmed.netlify.app)*
+
+</div>
+
+---
+
+## 🎯 Quick Reference Guide
+
+| Action | Shortcut |
+|--------|----------|
+| Paste URL | Ctrl + V |
+| Start Download | Enter |
+| Open Downloads Folder | Ctrl + O |
+| Open Queue Manager | Ctrl + Q |
+| Save Settings | Ctrl + S |
+| Open Help | F1 |
+
+---
+
+## 📈 Statistics
+
+<div align="center">
+
+| Metric | Value |
+|--------|-------|
+| Total Downloads | 10,000,000+ |
+| Supported Sites | 50+ |
+| File Types | All |
+| Max Speed | 8x Faster |
+| Languages | 2 (EN/AR) |
+
+</div>
+
+---
+
+<div align="center">
+
+### 🚀 **Start Downloading Faster Today!** 🚀
+
+[![Download Now](https://img.shields.io/badge/Download-Now-0078D4?style=for-the-badge&logo=download&logoColor=white)](https://github.com/kezoooop/MyDownloadManager/releases)
 
 </div>
