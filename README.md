@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="help_images/wizard-small.png" alt="My Download Manager Logo" width="200" height="200">
+<img src="help_images/wizard-small.png" alt="My Download Manager Logo" width="600" height="800">
 
 # ⚡ My Download Manager (MDM)
 
