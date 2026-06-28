@@ -27,6 +27,21 @@
 
 ---
 
+## 🌐 Official Website | الموقع الرسمي
+
+<div align="center">
+
+### 🔗 **[https://mydownloadmanager.pages.dev/](https://mydownloadmanager.pages.dev/)**
+
+**Download the latest version, get support, and stay updated!**  
+**تحميل أحدث إصدار، احصل على الدعم، وابق على اطلاع!**
+
+📧 **Email | البريد الإلكتروني:** **kamel.buisness@outlook.com**
+
+</div>
+
+---
+
 ## 📖 Table of Contents | فهرس المحتويات
 
 - [✨ Introduction](#-introduction)
@@ -496,6 +511,21 @@ Downloads/
 # ⚡ مدير التحميلات المتقدم (MDM)
 
 ### *ضاعف سرعة تحميلاتك حتى 8 مرات!*
+
+</div>
+
+---
+
+## 🌐 الموقع الرسمي | Official Website
+
+<div align="center">
+
+### 🔗 **[https://mydownloadmanager.pages.dev/](https://mydownloadmanager.pages.dev/)**
+
+**تحميل أحدث إصدار، احصل على الدعم، وابق على اطلاع!**  
+**Download the latest version, get support, and stay updated!**
+
+📧 **البريد الإلكتروني | Email:** **kamel.buisness@outlook.com**
 
 </div>
 
