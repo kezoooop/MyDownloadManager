@@ -1,11 +1,11 @@
 {
-  "latest_version": "1.5.3",
-  "download_url": "https://github.com/kezoooop/MyDownloadManager/releases/download/V1.5.3/MDM.Setup.V1.5.3.exe",
+  "latest_version": "2.1",
+  "download_url": "https://github.com/kezoooop/MyDownloadManager/releases/download/V2.1/MDM.Setup.V2.1.exe",
   "release_notes": {
-    "en": "New features!\n- Enhanced video grabbing\n- Improved TikTok video detection\n- Enhanced Instagram Reels & Stories\n- Advanced social media detection\n- Smarter auto-capture\n- Quick-Share latest version support\n- In-app updates via Check Updates button\n- Multi-threading fixes\n- Large file support (100GB+)",
-    "ar": "ميزات جديدة!\n- تحسين جلب الفيديوهات\n- تحسين اكتشاف فيديوهات تيك توك\n- تحسين ريلز وقصص انستجرام\n- كشف متقدم لمواقع التواصل\n- تحسين الالتقاط التلقائي للروابط\n- دعم أحدث إصدار من Quick-Share\n- تحديثات من داخل التطبيق\n- إصلاحات التحميل متعدد الخيوط\n- دعم الملفات الكبيرة (100 جيجابايت+)"
+    "en": "✨ NEW FEATURES:\n- Dailymotion video download with 4K support\n- Re-Download button for completed files\n- System tray live speed monitor\n- Enhanced exit screen with animations\n- Bulk download import from CSV/TXT files\n- Power & Battery management with auto-pause\n\n🚀 IMPROVEMENTS:\n- Enhanced video grabbing (TikTok, Instagram, Facebook)\n- Smarter auto-capture from clipboard\n- Quick-Share latest version support\n- Multi-threading fixes for large files (100GB+)\n- In-app updates via Check Updates button\n\n🐛 BUG FIXES:\n- Fixed filename detection without headers\n- Fixed `__.file` naming issue\n- Fixed memory leak in multi-connection downloader\n- Improved error handling for failed downloads",
+    "ar": "✨ ميزات جديدة:\n- تحميل فيديوهات Dailymotion بجودة 4K\n- زر إعادة التحميل للملفات المكتملة\n- مراقبة السرعة في شريط المهام\n- شاشة خروج محسنة مع رسوم متحركة\n- استيراد تحميلات مجمعة من ملفات CSV/TXT\n- إدارة الطاقة والبطارية مع إيقاف تلقائي\n\n🚀 تحسينات:\n- تحسين جلب الفيديوهات (تيك توك، انستجرام، فيسبوك)\n- التقط تلقائي أذكى من الحافظة\n- دعم أحدث إصدار من Quick-Share\n- إصلاحات التحميل متعدد الخيوط للملفات الكبيرة (100+ جيجابايت)\n- تحديثات من داخل التطبيق عبر زر التحقق من التحديثات\n\n🐛 إصلاحات الأخطاء:\n- إصلاح اكتشاف اسم الملف بدون رؤوس\n- إصلاح مشكلة تسمية `__.file`\n- إصلاح تسرب الذاكرة في التحميل متعدد التوصيلات\n- تحسين معالجة الأخطاء للتحميلات الفاشلة"
   },
-  "release_date": "2026-06-26",
+  "release_date": "2026-06-30",
   "min_version": "1.4.0",
   "force_update": false
 }
