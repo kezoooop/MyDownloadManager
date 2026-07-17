@@ -1,0 +1,57 @@
+# robots.txt for My Download Manager
+# Version: 1.0
+# Last Updated: 2026-07-17
+
+# ============================================
+# ALLOW ALL SEARCH ENGINES
+# ============================================
+User-agent: *
+Allow: /
+
+# ============================================
+# DISALLOW SPECIFIC FOLDERS
+# ============================================
+Disallow: /help_images/
+Disallow: /.git/
+Disallow: /.github/
+Disallow: /node_modules/
+
+# ============================================
+# DISALLOW SPECIFIC FILES
+# ============================================
+Disallow: /README.md
+Disallow: /LICENSE.md
+Disallow: /version.json
+Disallow: /google*.html
+
+# ============================================
+# SITEMAP LOCATION
+# ============================================
+Sitemap: https://kezoooop.github.io/MyDownloadManager/sitemap.xml
+
+# ============================================
+# CRAWL RULES
+# ============================================
+Crawl-delay: 1
+
+# ============================================
+# GOOGLE SPECIFIC RULES
+# ============================================
+User-agent: Googlebot
+Allow: /
+Disallow: /help_images/
+
+# ============================================
+# BLOCK AGGRESSIVE CRAWLERS
+# ============================================
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
