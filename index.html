@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Download Manager - Ultimate Download Manager for Windows</title>
+    <meta name="description" content="My Download Manager (MDM) is the ultimate download accelerator for Windows. Download videos, reels, and content from TikTok, Facebook, YouTube, Instagram, and 50+ platforms with 8x faster speeds!">
+    <meta name="keywords" content="download manager, video downloader, youtube downloader, tiktok downloader, instagram downloader, facebook downloader, 4k video downloader, playlist downloader, download accelerator, windows downloader">
+    <link rel="canonical" href="https://kezoooop.github.io/MyDownloadManager/">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="My Download Manager - Ultimate Download Manager for Windows">
+    <meta property="og:description" content="Download videos, reels, and files from TikTok, Facebook, YouTube, Instagram, and 50+ platforms with 8x faster speeds!">
+    <meta property="og:image" content="help_images/1.png">
+    <meta property="og:url" content="https://kezoooop.github.io/MyDownloadManager/">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #0d0d0d;
+            color: #e0e0e0;
+            line-height: 1.8;
+            transition: all 0.3s ease;
+        }
+        body.rtl {
+            direction: rtl;
+            text-align: right;
+        }
+        body.ltr {
+            direction: ltr;
+            text-align: left;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            padding: 40px 0 20px 0;
+            border-bottom: 1px solid #2a2a2a;
+            margin-bottom: 40px;
+        }
+        .header .badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #f7971e, #ffd200);
+            color: #1a1a1a;
+            padding: 6px 20px;
+            border-radius: 30px;
+            font-weight: 700;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+        }
+        .header h1 {
+            font-size: 3.2rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, #f7971e, #ffd200);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 10px;
+        }
+        .header .subtitle {
+            font-size: 1.3rem;
+            color: #aaa;
+            margin-bottom: 5px;
+        }
+        .header .subtitle strong {
+            color: #ffd54f;
+        }
+        .header .version-badges {
+            margin: 15px 0;
+        }
+        .header .version-badges a {
+            display: inline-block;
+            margin: 0 5px;
+        }
+        .header .version-badges img {
+            height: 28px;
+        }
+        .header .tagline {
+            font-size: 1.1rem;
+            color: #888;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background: #1a1a1a;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        .header .tagline span {
+            color: #ffd54f;
+        }
+
+        /* Language Toggle */
+        .lang-toggle {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 25px 0 15px 0;
+        }
+        .lang-toggle button {
+            background: #1a1a1a;
+            border: 2px solid #2a2a2a;
+            color: #888;
+            padding: 10px 35px;
+            border-radius: 30px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .lang-toggle button:hover {
+            border-color: #f7971e;
+            color: #fff;
+        }
+        .lang-toggle button.active {
+            background: #f7971e;
+            border-color: #f7971e;
+            color: #1a1a1a;
+        }
+
+        /* Sections */
+        .section {
+            background: #121212;
+            border-radius: 16px;
+            padding: 35px 40px;
+            margin-bottom: 35px;
+            border: 1px solid #1e1e1e;
+            transition: all 0.3s;
+        }
+        .section:hover {
+            border-color: #2a2a2a;
+        }
+        .section h2 {
+            font-size: 2rem;
+            color: #ffd54f;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #1e1e1e;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .section h2 .icon {
+            font-size: 1.8rem;
+        }
+        .section h3 {
+            font-size: 1.4rem;
+            color: #f7971e;
+            margin: 25px 0 12px 0;
+        }
+        .section h4 {
+            font-size: 1.1rem;
+            color: #ffb300;
+            margin: 18px 0 8px 0;
+        }
+        .section p {
+            color: #ccc;
+            margin-bottom: 12px;
+        }
+
+        /* Buttons */
+        .btn-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 14px 40px;
+            border-radius: 30px;
+            font-weight: 700;
+            font-size: 1rem;
+            text-decoration: none;
+            transition: all 0.3s;
+            cursor: pointer;
+            border: none;
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #f7971e, #ffd200);
+            color: #1a1a1a;
+        }
+        .btn-primary:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 30px rgba(247, 151, 30, 0.3);
+        }
+        .btn-secondary {
+            background: #2a2a2a;
+            color: #fff;
+            border: 1px solid #3a3a3a;
+        }
+        .btn-secondary:hover {
+            background: #3a3a3a;
+            transform: scale(1.02);
+        }
+        .btn-outline {
+            background: transparent;
+            color: #ffd54f;
+            border: 2px solid #ffd54f;
+        }
+        .btn-outline:hover {
+            background: #ffd54f;
+            color: #1a1a1a;
+        }
+
+        /* Feature Grid */
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .feature-card {
+            background: #1a1a1a;
+            padding: 20px 18px;
+            border-radius: 12px;
+            border: 1px solid #252525;
+            text-align: center;
+            transition: all 0.3s;
+        }
+        .feature-card:hover {
+            border-color: #f7971e;
+            transform: translateY(-3px);
+        }
+        .feature-card .icon {
+            font-size: 2.5rem;
+            display: block;
+            margin-bottom: 8px;
+        }
+        .feature-card h4 {
+            color: #ffd54f;
+            font-size: 1rem;
+            margin-bottom: 4px;
+        }
+        .feature-card p {
+            color: #999;
+            font-size: 0.85rem;
+            margin: 0;
+        }
+
+        /* Image Gallery */
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin: 20px 0;
+        }
+        .image-item {
+            background: #1a1a1a;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid #252525;
+            transition: all 0.3s;
+        }
+        .image-item:hover {
+            border-color: #f7971e;
+        }
+        .image-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .image-item .caption {
+            padding: 12px 18px;
+            color: #aaa;
+            font-size: 0.9rem;
+            text-align: center;
+            background: #0d0d0d;
+        }
+        .image-item .caption strong {
+            color: #ffd54f;
+        }
+
+        /* Table */
+        .table-wrap {
+            overflow-x: auto;
+            margin: 15px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95rem;
+        }
+        table th {
+            background: #1a1a1a;
+            color: #ffd54f;
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 2px solid #f7971e;
+        }
+        body.rtl table th {
+            text-align: right;
+        }
+        table td {
+            padding: 10px 15px;
+            border-bottom: 1px solid #1a1a1a;
+            color: #ccc;
+        }
+        table tr:hover td {
+            background: #1a1a1a;
+        }
+
+        /* Lists */
+        .section ul, .section ol {
+            padding-left: 25px;
+            color: #ccc;
+            margin: 10px 0 15px 0;
+        }
+        body.rtl .section ul, body.rtl .section ol {
+            padding-right: 25px;
+            padding-left: 0;
+        }
+        .section ul li, .section ol li {
+            margin-bottom: 6px;
+        }
+        .section ul li strong, .section ol li strong {
+            color: #ffd54f;
+        }
+
+        /* Code block */
+        .code-block {
+            background: #0a0a0a;
+            padding: 15px 20px;
+            border-radius: 8px;
+            font-family: 'Consolas', 'Courier New', monospace;
+            font-size: 0.85rem;
+            color: #aaa;
+            overflow-x: auto;
+            margin: 10px 0;
+            border: 1px solid #1a1a1a;
+            white-space: pre-wrap;
+            word-break: break-all;
+        }
+
+        /* Boxes */
+        .box-warning {
+            background: #1a1a0a;
+            border-left: 4px solid #f7971e;
+            padding: 15px 20px;
+            border-radius: 6px;
+            margin: 10px 0;
+        }
+        body.rtl .box-warning {
+            border-left: none;
+            border-right: 4px solid #f7971e;
+        }
+        .box-success {
+            background: #0a1a0a;
+            border-left: 4px solid #4caf50;
+            padding: 15px 20px;
+            border-radius: 6px;
+            margin: 10px 0;
+        }
+        body.rtl .box-success {
+            border-left: none;
+            border-right: 4px solid #4caf50;
+        }
+
+        /* Social Links */
+        .social-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+            margin: 20px 0;
+        }
+        .social-links a {
+            display: inline-block;
+            padding: 10px 18px;
+            background: #1a1a1a;
+            border-radius: 30px;
+            color: #aaa;
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: all 0.3s;
+            border: 1px solid #252525;
+        }
+        .social-links a:hover {
+            color: #ffd54f;
+            border-color: #f7971e;
+            transform: translateY(-2px);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 30px 0 20px 0;
+            border-top: 1px solid #1a1a1a;
+            margin-top: 30px;
+            color: #555;
+            font-size: 0.9rem;
+        }
+        .footer a {
+            color: #ffd54f;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* SEO Text */
+        .seo-text {
+            font-size: 0.85rem;
+            color: #555;
+            padding: 15px 20px;
+            background: #0a0a0a;
+            border-radius: 8px;
+            margin-top: 20px;
+            line-height: 1.6;
+            max-height: 300px;
+            overflow-y: auto;
+            border: 1px solid #1a1a1a;
+        }
+        .seo-text::-webkit-scrollbar {
+            width: 6px;
+        }
+        .seo-text::-webkit-scrollbar-thumb {
+            background: #2a2a2a;
+            border-radius: 10px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container { padding: 12px; }
+            .header h1 { font-size: 2rem; }
+            .header .subtitle { font-size: 1rem; }
+            .section { padding: 20px; }
+            .section h2 { font-size: 1.4rem; }
+            .feature-grid { grid-template-columns: 1fr 1fr; }
+            .image-gallery { grid-template-columns: 1fr; }
+            .btn { padding: 12px 25px; font-size: 0.9rem; }
+            .lang-toggle button { padding: 8px 20px; font-size: 0.85rem; }
+        }
+        @media (max-width: 480px) {
+            .feature-grid { grid-template-columns: 1fr; }
+            .header h1 { font-size: 1.6rem; }
+            .btn-group { flex-direction: column; align-items: center; }
+            .btn { width: 100%; text-align: center; }
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #0d0d0d; }
+        ::-webkit-scrollbar-thumb { background: #f7971e; border-radius: 10px; }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .section {
+            animation: fadeInUp 0.6s ease forwards;
+        }
+        .section:nth-child(2) { animation-delay: 0.1s; }
+        .section:nth-child(3) { animation-delay: 0.2s; }
+        .section:nth-child(4) { animation-delay: 0.3s; }
+    </style>
+</head>
+<body class="rtl">
+
+<div class="container">
+
+    <!-- ============================================================ -->
+    <!-- HEADER -->
+    <!-- ============================================================ -->
+    <header class="header">
+        <div class="badge">🚀 Ultimate Download Manager</div>
+        <h1>My Download Manager</h1>
+        <p class="subtitle">⚡ <strong>حمّل كل ما تريد بسرعة خارقة</strong> - من فيديوهات التواصل الاجتماعي إلى أي ملف على الإنترنت!</p>
+        
+        <div class="version-badges">
+            <a href="https://github.com/kezoooop/MyDownloadManager"><img src="https://img.shields.io/badge/version-3.4-blue.svg?style=for-the-badge" alt="Version"></a>
+            <a href="https://github.com/kezoooop/MyDownloadManager"><img src="https://img.shields.io/badge/platform-Windows-0078D4.svg?style=for-the-badge" alt="Platform"></a>
+            <a href="https://github.com/kezoooop/MyDownloadManager"><img src="https://img.shields.io/badge/downloads-10M%2B-brightgreen.svg?style=for-the-badge" alt="Downloads"></a>
+        </div>
+
+        <div class="tagline">
+            🌟 <span>الحل الأمثل لتحميل الفيديوهات والملفات من الإنترنت</span> 🌟
+            <br>
+            <small style="color:#666;">قل وداعاً لبطء التحميل - وابدأ رحلة السرعة الآن!</small>
+        </div>
+
+        <!-- Language Toggle -->
+        <div class="lang-toggle">
+            <button class="active" onclick="switchLang('ar')">🇸🇦 العربية</button>
+            <button onclick="switchLang('en')">🇬🇧 English</button>
+        </div>
+
+        <!-- CTA Buttons -->
+        <div class="btn-group">
+            <a href="https://github.com/kezoooop/MyDownloadManager/releases" class="btn btn-primary">⬇️ تحميل الآن</a>
+            <a href="https://github.com/kezoooop/MyDownloadManager" class="btn btn-secondary">📂 عرض على GitHub</a>
+            <a href="https://mydownloadmanager.pages.dev/" class="btn btn-outline">🌐 الموقع الرسمي</a>
+        </div>
+    </header>
+
+    <!-- ============================================================ -->
+    <!-- OFFICIAL WEBSITE -->
+    <!-- ============================================================ -->
+    <div class="section" id="official">
+        <h2><span class="icon">🌐</span> <span class="lang-ar">الموقع الرسمي</span><span class="lang-en" style="display:none;">Official Website</span></h2>
+        <div style="text-align:center; padding:15px; background:#1a1a1a; border-radius:12px;">
+            <p style="font-size:1.3rem; margin-bottom:5px;">
+                🔗 <a href="https://mydownloadmanager.pages.dev/" style="color:#ffd54f; text-decoration:none; font-weight:bold;">https://mydownloadmanager.pages.dev/</a>
+            </p>
+            <p style="color:#888; font-size:0.95rem;">
+                <span class="lang-ar">تحميل أحدث إصدار، احصل على الدعم، وابق على اطلاع!</span>
+                <span class="lang-en" style="display:none;">Download the latest version, get support, and stay updated!</span>
+            </p>
+            <p style="color:#666; font-size:0.9rem;">
+                📧 <strong>Email | البريد الإلكتروني:</strong> <a href="mailto:kamel.buisness@outlook.com" style="color:#aaa;">kamel.buisness@outlook.com</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- TABLE OF CONTENTS -->
+    <!-- ============================================================ -->
+    <div class="section" id="toc">
+        <h2><span class="icon">📖</span> <span class="lang-ar">فهرس المحتويات</span><span class="lang-en" style="display:none;">Table of Contents</span></h2>
+        <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:8px;">
+            <a href="#introduction" style="color:#aaa; text-decoration:none; padding:6px 12px; background:#1a1a1a; border-radius:6px; text-align:center;">✨ <span class="lang-ar">مقدمة</span><span class="lang-en" style="display:none;">Introduction</span></a>
+            <a href="#features" style="color:#aaa; text-decoration:none; padding:6px 12px; background:#1a1a1a; border-radius:6px; text-align:center;">🔥 <span class="lang-ar">الميزات الرئيسية</span><span class="lang-en" style="display:none;">Key Features</span></a>
+            <a href="#showcase" style="color:#aaa; text-decoration:none; padding:6px 12px; background:#1a1a1a; border-radius:6px; text-align:center;">📸 <span class="lang-ar">عرض التطبيق</span><span class="lang-en" style="display:none;">Showcase</span></a>
+            <a href="#howto" style="color:#aaa; text-decoration:none; padding:6px 12px; background:#1a1a1a; border-radius:6px; text-align:center;">🎯 <span class="lang-ar">كيفية الاستخدام</span><span class="lang-en" style="display:none;">How to Use</span></a>
+            <a href="#tips" style="color:#aaa; text-decoration:none; padding:6px 12px; background:#1a1a1a; border-radius:6px; text-align:center;">💡 <span class="lang-ar">نصائح احترافية</span><span class="lang-en" style="display:none;">Pro Tips</span></a>
+            <a href="#troubleshooting" style="color:#aaa; text-decoration:none; padding:6px 12px; background:#1a1a1a; border-radius:6px; text-align:center;">🛠️ <span class="lang-ar">حل المشكلات</span><span class="lang-en" style="display:none;">Troubleshooting</span></a>
+            <a href="#connect" style="color:#aaa; text-decoration:none; padding:6px 12px; background:#1a1a1a; border-radius:6px; text-align:center;">📱 <span class="lang-ar">تواصل معنا</span><span class="lang-en" style="display:none;">Connect</span></a>
+            <a href="#developer" style="color:#aaa; text-decoration:none; padding:6px 12px; background:#1a1a1a; border-radius:6px; text-align:center;">👨‍💻 <span class="lang-ar">عن المطور</span><span class="lang-en" style="display:none;">Developer</span></a>
+        </div>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- INTRODUCTION -->
+    <!-- ============================================================ -->
+    <div class="section" id="introduction">
+        <h2><span class="icon">✨</span> <span class="lang-ar">مقدمة</span><span class="lang-en" style="display:none;">Introduction</span></h2>
+        
+        <p class="lang-ar"><strong>My Download Manager (MDM)</strong> هو مدير تحميلات متقدم من الجيل التالي يحدث ثورة في طريقة تحميلك للفيديوهات والملفات من الإنترنت. تم تطويره بأحدث التقنيات، ويجمع بين السرعات الخارقة والميزات الذكية التي تجعل عملية التحميل سهلة وممتعة وفعالة.</p>
+        <p class="lang-en" style="display:none;"><strong>My Download Manager (MDM)</strong> is a next-generation download accelerator that revolutionizes how you download videos and files from the internet. Built with cutting-edge technology, MDM combines blazing-fast speeds with intelligent features that make downloading effortless and enjoyable.</p>
+        
+        <p class="lang-ar">مع <strong>MDM</strong>، يمكنك تحميل الفيديوهات من <strong>يوتيوب، تيك توك، إنستجرام، فيسبوك، سناب شات، تويتر</strong> وأكثر من 50 منصة تواصل اجتماعي بجودة تصل إلى <strong>4K</strong>. كما يدعم البرنامج تحميل جميع أنواع الملفات بما في ذلك المستندات، البرامج، الصور، والملفات المضغوطة.</p>
+        <p class="lang-en" style="display:none;">With <strong>MDM</strong>, you can download videos from <strong>YouTube, TikTok, Instagram, Facebook, Snapchat, Twitter</strong> and 50+ social media platforms in quality up to <strong>4K</strong>. The software also supports downloading all file types including documents, executables, images, and archives.</p>
+
+        <h3 class="lang-ar">لماذا MDM هو الخيار الأمثل؟</h3>
+        <h3 class="lang-en" style="display:none;">Why MDM is the Best Choice?</h3>
+
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th><span class="lang-ar">الميزة</span><span class="lang-en" style="display:none;">Feature</span></th>
+                        <th><span class="lang-ar">الفائدة</span><span class="lang-en" style="display:none;">Benefit</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>⚡ <strong><span class="lang-ar">سرعة 8 أضعاف</span><span class="lang-en" style="display:none;">8x Faster Speeds</span></strong></td><td><span class="lang-ar">حمل الملفات الكبيرة في دقائق بدلاً من ساعات</span><span class="lang-en" style="display:none;">Download large files in minutes, not hours</span></td></tr>
+                    <tr><td>🎯 <strong><span class="lang-ar">دعم شامل لكل المواقع</span><span class="lang-en" style="display:none;">Universal Support</span></strong></td><td><span class="lang-ar">يعمل مع جميع مواقع الويب وأنواع الملفات</span><span class="lang-en" style="display:none;">Works with ALL websites and file types</span></td></tr>
+                    <tr><td>🔄 <strong><span class="lang-ar">استئناف ذكي</span><span class="lang-en" style="display:none;">Smart Resume</span></strong></td><td><span class="lang-ar">لا تفقد تقدمك أبداً - استأنف التحميل من حيث توقفت</span><span class="lang-en" style="display:none;">Never lose your progress - resume from where you stopped</span></td></tr>
+                    <tr><td>🎬 <strong><span class="lang-ar">جودة 4K فائقة الوضوح</span><span class="lang-en" style="display:none;">4K Quality</span></strong></td><td><span class="lang-ar">حمل فيديوهات عالية الجودة من وسائل التواصل الاجتماعي</span><span class="lang-en" style="display:none;">Download high-quality videos from social media</span></td></tr>
+                    <tr><td>📋 <strong><span class="lang-ar">التقاط بنقرة واحدة من المتصفح</span><span class="lang-en" style="display:none;">One-Click Browser Integration</span></strong></td><td><span class="lang-ar">التقط التحميلات مباشرة من متصفحك</span><span class="lang-en" style="display:none;">Capture downloads directly from your browser</span></td></tr>
+                    <tr><td>⏰ <strong><span class="lang-ar">جدولة ذكية</span><span class="lang-en" style="display:none;">Smart Scheduling</span></strong></td><td><span class="lang-ar">أتمتة التحميلات في أوقات محددة تلقائياً</span><span class="lang-en" style="display:none;">Automate downloads at specific times</span></td></tr>
+                    <tr><td>🔐 <strong><span class="lang-ar">التحقق من سلامة الملفات</span><span class="lang-en" style="display:none;">File Integrity Verification</span></strong></td><td><span class="lang-ar">تأكد من أن تحميلاتك سليمة 100%</span><span class="lang-en" style="display:none;">Ensure your downloads are 100% intact</span></td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- KEY FEATURES -->
+    <!-- ============================================================ -->
+    <div class="section" id="features">
+        <h2><span class="icon">🔥</span> <span class="lang-ar">الميزات الرئيسية</span><span class="lang-en" style="display:none;">Key Features</span></h2>
+
+        <div class="feature-grid">
+            <div class="feature-card"><span class="icon">🎬</span><h4><span class="lang-ar">تحميل الفيديو</span><span class="lang-en" style="display:none;">Video Download</span></h4><p><span class="lang-ar">يوتيوب، تيك توك، إنستجرام، فيسبوك، سناب شات، تويتر وأكثر</span><span class="lang-en" style="display:none;">YouTube, TikTok, Instagram, Facebook, Snapchat, Twitter & more</span></p></div>
+            <div class="feature-card"><span class="icon">📄</span><h4><span class="lang-ar">تحميل الملفات</span><span class="lang-en" style="display:none;">File Download</span></h4><p><span class="lang-ar">جميع أنواع الملفات: مستندات، برامج، صور، صوت، أرشيف</span><span class="lang-en" style="display:none;">All file types: documents, programs, images, audio, archives</span></p></div>
+            <div class="feature-card"><span class="icon">🎥</span><h4><span class="lang-ar">جودة 4K</span><span class="lang-en" style="display:none;">4K Quality</span></h4><p><span class="lang-ar">حتى 4K (2160p)، 2K (1440p)، 1080p، 720p، 480p، 360p</span><span class="lang-en" style="display:none;">Up to 4K (2160p), 2K (1440p), 1080p, 720p, 480p, 360p</span></p></div>
+            <div class="feature-card"><span class="icon">📋</span><h4><span class="lang-ar">قوائم التشغيل</span><span class="lang-en" style="display:none;">Playlists</span></h4><p><span class="lang-ar">تحميل قوائم تشغيل يوتيوب كاملة بضغطة واحدة</span><span class="lang-en" style="display:none;">Download entire YouTube playlists with one click</span></p></div>
+            <div class="feature-card"><span class="icon">🌐</span><h4><span class="lang-ar">تكامل المتصفح</span><span class="lang-en" style="display:none;">Browser Integration</span></h4><p><span class="lang-ar">التقاط التحميلات مباشرة من متصفحك دون عناء</span><span class="lang-en" style="display:none;">Capture downloads directly from your browser</span></p></div>
+            <div class="feature-card"><span class="icon">📋</span><h4><span class="lang-ar">التقاط الحافظة</span><span class="lang-en" style="display:none;">Clipboard Capture</span></h4><p><span class="lang-ar">اكتشاف الروابط المنسوخة تلقائياً وبدء التحميل فوراً</span><span class="lang-en" style="display:none;">Auto-detect copied links and start downloads instantly</span></p></div>
+            <div class="feature-card"><span class="icon">⏸️</span><h4><span class="lang-ar">إيقاف واستئناف</span><span class="lang-en" style="display:none;">Pause & Resume</span></h4><p><span class="lang-ar">إيقاف واستئناف التحميلات في أي وقت</span><span class="lang-en" style="display:none;">Pause and resume downloads at any time</span></p></div>
+            <div class="feature-card"><span class="icon">⚡</span><h4><span class="lang-ar">التحكم بالسرعة</span><span class="lang-en" style="display:none;">Speed Control</span></h4><p><span class="lang-ar">تحديد حدود سرعة عامة وخاصة لكل تحميل</span><span class="lang-en" style="display:none;">Global and per-download speed limits</span></p></div>
+            <div class="feature-card"><span class="icon">📊</span><h4><span class="lang-ar">مدير الطابور</span><span class="lang-en" style="display:none;">Queue Manager</span></h4><p><span class="lang-ar">إدارة تحميلات متعددة بكفاءة عالية</span><span class="lang-en" style="display:none;">Manage multiple downloads efficiently</span></p></div>
+            <div class="feature-card"><span class="icon">⏰</span><h4><span class="lang-ar">جدولة متقدمة</span><span class="lang-en" style="display:none;">Advanced Scheduler</span></h4><p><span class="lang-ar">جدولة التحميلات في أوقات محددة تلقائياً</span><span class="lang-en" style="display:none;">Schedule downloads at specific times</span></p></div>
+            <div class="feature-card"><span class="icon">🔐</span><h4><span class="lang-ar">التحقق من التجزئة</span><span class="lang-en" style="display:none;">Hash Verification</span></h4><p><span class="lang-ar">التحقق من سلامة الملفات باستخدام SHA-256</span><span class="lang-en" style="display:none;">Verify file integrity with SHA-256</span></p></div>
+            <div class="feature-card"><span class="icon">📁</span><h4><span class="lang-ar">مجلدات ذكية</span><span class="lang-en" style="display:none;">Smart Folders</span></h4><p><span class="lang-ar">تنظيم تلقائي للتحميلات حسب المصدر والنوع</span><span class="lang-en" style="display:none;">Auto-organize downloads by source and type</span></p></div>
+        </div>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- APPLICATION SHOWCASE -->
+    <!-- ============================================================ -->
+    <div class="section" id="showcase">
+        <h2><span class="icon">📸</span> <span class="lang-ar">عرض التطبيق</span><span class="lang-en" style="display:none;">Application Showcase</span></h2>
+        <p class="lang-ar">استكشف الواجهات المختلفة لبرنامج My Download Manager واكتشف كيف يمكنك التحكم الكامل في تجربة التحميل.</p>
+        <p class="lang-en" style="display:none;">Explore the different interfaces of My Download Manager and discover how you can have full control over your download experience.</p>
+
+        <!-- Image 1 -->
+        <div class="image-item" style="margin-bottom:25px;">
+            <img src="help_images/1.png" alt="الواجهة الرئيسية - Main Interface" loading="lazy">
+            <div class="caption"><strong><span class="lang-ar">الشكل 1: الواجهة الرئيسية - مركز التحكم في التحميلات</span><span class="lang-en" style="display:none;">Figure 1: Main Interface - Your Command Center for Downloads</span></strong></div>
+        </div>
+        <p class="lang-ar"><strong>شرح الواجهة الرئيسية:</strong> تظهر الواجهة الرئيسية وتحتوي على القائمة العلوية (New, Open Downloads, Check Updates, Help, About, General, العربية)، حقل إدخال الرابط، أزرار التحكم (Video, Browse, Download)، قائمة التحميلات النشطة مع معلومات مفصلة عن السرعة والوقت المتبقي والحجم ونسبة التقدم، وأزرار التحكم بالتحميل (Pause, Cancel).</p>
+        <p class="lang-en" style="display:none;"><strong>Main Interface Overview:</strong> The main interface features the top menu (New, Open Downloads, Check Updates, Help, About, General, العربية), URL input field, control buttons (Video, Browse, Download), active downloads list with detailed information about speed, ETA, size and progress, and download control buttons (Pause, Cancel).</p>
+
+        <div class="image-gallery">
+            <!-- Image 2 -->
+            <div class="image-item">
+                <img src="help_images/2.png" alt="نافذة معلومات التحميل" loading="lazy">
+                <div class="caption"><strong><span class="lang-ar">الشكل 2: نافذة معلومات التحميل</span><span class="lang-en" style="display:none;">Figure 2: Download File Info</span></strong></div>
+            </div>
+            <!-- Image 3 -->
+            <div class="image-item">
+                <img src="help_images/3.png" alt="اختيار تصنيف الملف" loading="lazy">
+                <div class="caption"><strong><span class="lang-ar">الشكل 3: قائمة التصنيفات</span><span class="lang-en" style="display:none;">Figure 3: Categories List</span></strong></div>
+            </div>
+            <!-- Image 4 -->
+            <div class="image-item">
+                <img src="help_images/4.png" alt="نافذة التحميل النشط" loading="lazy">
+                <div class="caption"><strong><span class="lang-ar">الشكل 4: نافذة التحميل النشط</span><span class="lang-en" style="display:none;">Figure 4: Active Download Window</span></strong></div>
+            </div>
+            <!-- Image 5 -->
+            <div class="image-item">
+                <img src="help_images/5.png" alt="إعدادات إيقاف التشغيل" loading="lazy">
+                <div class="caption"><strong><span class="lang-ar">الشكل 5: إعدادات إيقاف التشغيل</span><span class="lang-en" style="display:none;">Figure 5: Shutdown Settings</span></strong></div>
+            </div>
+            <!-- Image 6 -->
+            <div class="image-item">
+                <img src="help_images/6.png" alt="حالة التحميل المتوقف" loading="lazy">
+                <div class="caption"><strong><span class="lang-ar">الشكل 6: حالة التحميل المتوقف</span><span class="lang-en" style="display:none;">Figure 6: Paused Download State</span></strong></div>
+            </div>
+            <!-- Image 7 -->
+            <div class="image-item">
+                <img src="help_images/7.png" alt="إعدادات البرنامج" loading="lazy">
+                <div class="caption"><strong><span class="lang-ar">الشكل 7: إعدادات البرنامج المتقدمة</span><span class="lang-en" style="display:none;">Figure 7: Advanced Settings</span></strong></div>
+            </div>
+            <!-- Image 8 -->
+            <div class="image-item">
+                <img src="help_images/8.png" alt="إعدادات الجودة" loading="lazy">
+                <div class="caption"><strong><span class="lang-ar">الشكل 8: إعدادات جودة التحميل</span><span class="lang-en" style="display:none;">Figure 8: Quality Settings</span></strong></div>
+            </div>
+            <!-- Image 9 -->
+            <div class="image-item">
+                <img src="help_images/9.png" alt="نافذة التحميل العربية" loading="lazy">
+                <div class="caption"><strong><span class="lang-ar">الشكل 9: نافذة معلومات التحميل بالعربية</span><span class="lang-en" style="display:none;">Figure 9: Arabic Download Info</span></strong></div>
+            </div>
+            <!-- Image 10 -->
+            <div class="image-item">
+                <img src="help_images/10.png" alt="قائمة التحميلات المكتملة" loading="lazy">
+                <div class="caption"><strong><span class="lang-ar">الشكل 10: قائمة التحميلات المكتملة</span><span class="lang-en" style="display:none;">Figure 10: Completed Downloads</span></strong></div>
+            </div>
+            <!-- Image 11 -->
+            <div class="image-item">
+                <img src="help_images/11.png" alt="مدير الطابور" loading="lazy">
+                <div class="caption"><strong><span class="lang-ar">الشكل 11: مدير الطابور المتقدم</span><span class="lang-en" style="display:none;">Figure 11: Advanced Queue Manager</span></strong></div>
+            </div>
+            <!-- Image 12 -->
+            <div class="image-item">
+                <img src="help_images/12.png" alt="إعدادات متقدمة" loading="lazy">
+                <div class="caption"><strong><span class="lang-ar">الشكل 12: إعدادات التحميل المتقدمة</span><span class="lang-en" style="display:none;">Figure 12: Advanced Download Settings</span></strong></div>
+            </div>
+            <!-- Image 13 -->
+            <div class="image-item">
+                <img src="help_images/13.png" alt="إعدادات البروكسي" loading="lazy">
+                <div class="caption"><strong><span class="lang-ar">الشكل 13: إعدادات البروكسي</span><span class="lang-en" style="display:none;">Figure 13: Proxy Settings</span></strong></div>
+            </div>
+            <!-- Image 14 -->
+            <div class="image-item">
+                <img src="help_images/14.png" alt="إعدادات الإشعارات" loading="lazy">
+                <div class="caption"><strong><span class="lang-ar">الشكل 14: إعدادات الإشعارات والطاقة</span><span class="lang-en" style="display:none;">Figure 14: Notifications & Power Settings</span></strong></div>
+            </div>
+            <!-- Image 15 -->
+            <div class="image-item">
+                <img src="help_images/15.png" alt="إعدادات الفيديو" loading="lazy">
+                <div class="caption"><strong><span class="lang-ar">الشكل 15: إعدادات الفيديو المتقدمة</span><span class="lang-en" style="display:none;">Figure 15: Advanced Video Settings</span></strong></div>
+            </div>
+            <!-- Image 17 -->
+            <div class="image-item">
+                <img src="help_images/17.png" alt="استيراد قوائم التشغيل" loading="lazy">
+                <div class="caption"><strong><span class="lang-ar">الشكل 17: استيراد قوائم التشغيل</span><span class="lang-en" style="display:none;">Figure 17: Playlist Import</span></strong></div>
+            </div>
+            <!-- Image 18 -->
+            <div class="image-item">
+                <img src="help_images/18.png" alt="إعدادات التورنت" loading="lazy">
+                <div class="caption"><strong><span class="lang-ar">الشكل 18: إعدادات التورنت</span><span class="lang-en" style="display:none;">Figure 18: Torrent Settings</span></strong></div>
+            </div>
+            <!-- Image 19 -->
+            <div class="image-item">
+                <img src="help_images/19.png" alt="إضافة المتصفح" loading="lazy">
+                <div class="caption"><strong><span class="lang-ar">الشكل 19: إضافة المتصفح</span><span class="lang-en" style="display:none;">Figure 19: Browser Extension</span></strong></div>
+            </div>
+            <!-- Image 20 -->
+            <div class="image-item">
+                <img src="help_images/20.png" alt="إدارة الترخيص" loading="lazy">
+                <div class="caption"><strong><span class="lang-ar">الشكل 20: إدارة الترخيص</span><span class="lang-en" style="display:none;">Figure 20: License Management</span></strong></div>
+            </div>
+            <!-- Image 21 -->
+            <div class="image-item">
+                <img src="help_images/21.png" alt="إضافة المتصفح للمستخدمين" loading="lazy">
+                <div class="caption"><strong><span class="lang-ar">الشكل 21: إضافة المتصفح للمستخدمين</span><span class="lang-en" style="display:none;">Figure 21: Browser Extension for Users</span></strong></div>
+            </div>
+        </div>
+        <p style="color:#666; font-size:0.85rem; margin-top:10px;"><span class="lang-ar">ملاحظة: الصورة رقم 16 غير موجودة، وتتعلق بتحميل قوائم التشغيل (Playlist) كاملة عن طريق نسخ الرابط، وهو ما تم شرحه في الصورة رقم 17.</span><span class="lang-en" style="display:none;">Note: Image 16 is not available; it relates to downloading full playlists via link copy, which is explained in Figure 17.</span></p>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- HOW TO USE -->
+    <!-- ============================================================ -->
+    <div class="section" id="howto">
+        <h2><span class="icon">🎯</span> <span class="lang-ar">كيفية الاستخدام</span><span class="lang-en" style="display:none;">How to Use</span></h2>
+
+        <h3 class="lang-ar">🚀 دليل البدء السريع</h3>
+        <h3 class="lang-en" style="display:none;">🚀 Quick Start Guide</h3>
+        <ol>
+            <li><span class="lang-ar"><strong>انسخ</strong> رابط التحميل (فيديو أو ملف)</span><span class="lang-en" style="display:none;"><strong>Copy</strong> your download link (video or file URL)</span></li>
+            <li><span class="lang-ar"><strong>الصق</strong> الرابط في حقل URL في MDM</span><span class="lang-en" style="display:none;"><strong>Paste</strong> it into the URL field in MDM</span></li>
+            <li><span class="lang-ar"><strong>اختر</strong> نوع التحميل (ملف/فيديو)</span><span class="lang-en" style="display:none;"><strong>Select</strong> download type (File/Video)</span></li>
+            <li><span class="lang-ar"><strong>حدد</strong> مجلد الحفظ</span><span class="lang-en" style="display:none;"><strong>Choose</strong> your save folder</span></li>
+            <li><span class="lang-ar"><strong>اضغط</strong> على "Download"</span><span class="lang-en" style="display:none;"><strong>Click</strong> "Download"</span></li>
+            <li><span class="lang-ar"><strong>اضبط</strong> الخيارات في نافذة المعلومات</span><span class="lang-en" style="display:none;"><strong>Configure</strong> options in the dialog</span></li>
+            <li><span class="lang-ar"><strong>ابدأ</strong> التحميل!</span><span class="lang-en" style="display:none;"><strong>Start</strong> downloading!</span></li>
+        </ol>
+
+        <h3 class="lang-ar">📱 تحميل من وسائل التواصل الاجتماعي</h3>
+        <h3 class="lang-en" style="display:none;">📱 Download from Social Media</h3>
+
+        <div class="feature-grid">
+            <div class="feature-card"><span class="icon">▶️</span><h4><span class="lang-ar">يوتيوب</span><span class="lang-en" style="display:none;">YouTube</span></h4><p><span class="lang-ar">مشاركة → نسخ الرابط → الصق في MDM → اختر الجودة → تحميل</span><span class="lang-en" style="display:none;">Share → Copy Link → Paste in MDM → Choose Quality → Download</span></p></div>
+            <div class="feature-card"><span class="icon">🎵</span><h4><span class="lang-ar">تيك توك</span><span class="lang-en" style="display:none;">TikTok</span></h4><p><span class="lang-ar">مشاركة → نسخ الرابط → الصق في MDM → اختر الجودة → تحميل</span><span class="lang-en" style="display:none;">Share → Copy Link → Paste in MDM → Choose Quality → Download</span></p></div>
+            <div class="feature-card"><span class="icon">📸</span><h4><span class="lang-ar">إنستجرام</span><span class="lang-en" style="display:none;">Instagram</span></h4><p><span class="lang-ar">النقاط الثلاث → نسخ الرابط → الصق في MDM → اختر النوع → تحميل</span><span class="lang-en" style="display:none;">Three dots → Copy Link → Paste in MDM → Choose Type → Download</span></p></div>
+            <div class="feature-card"><span class="icon">👍</span><h4><span class="lang-ar">فيسبوك</span><span class="lang-en" style="display:none;">Facebook</span></h4><p><span class="lang-ar">النقاط الثلاث → نسخ الرابط → الصق في MDM → تحميل</span><span class="lang-en" style="display:none;">Three dots → Copy Link → Paste in MDM → Download</span></p></div>
+        </div>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- PRO TIPS -->
+    <!-- ============================================================ -->
+    <div class="section" id="tips">
+        <h2><span class="icon">💡</span> <span class="lang-ar">نصائح احترافية</span><span class="lang-en" style="display:none;">Pro Tips</span></h2>
+
+        <div class="feature-grid">
+            <div class="feature-card"><span class="icon">🎬</span><h4><span class="lang-ar">تحميل الفيديوهات</span><span class="lang-en" style="display:none;">Video Download</span></h4><p><span class="lang-ar">استخدم "مشاركة → نسخ الرابط" للحصول على أفضل النتائج</span><span class="lang-en" style="display:none;">Use "Share → Copy Link" for best results</span></p></div>
+            <div class="feature-card"><span class="icon">🔐</span><h4><span class="lang-ar">سلامة الملفات</span><span class="lang-en" style="display:none;">File Integrity</span></h4><p><span class="lang-ar">فعّل التحقق من التجزئة في الإعدادات باستخدام SHA-256</span><span class="lang-en" style="display:none;">Enable hash verification in Settings using SHA-256</span></p></div>
+            <div class="feature-card"><span class="icon">💼</span><h4><span class="lang-ar">الوضع المحمول</span><span class="lang-en" style="display:none;">Portable Mode</span></h4><p><span class="lang-ar">أنشئ ملف portable.ini في مجلد التطبيق لحمل الإعدادات</span><span class="lang-en" style="display:none;">Create portable.ini in app folder to carry settings</span></p></div>
+            <div class="feature-card"><span class="icon">🌍</span><h4><span class="lang-ar">إعدادات البروكسي</span><span class="lang-en" style="display:none;">Proxy Settings</span></h4><p><span class="lang-ar">دعم HTTP، SOCKS4، SOCKS5 مع مصادقة المستخدم</span><span class="lang-en" style="display:none;">Supports HTTP, SOCKS4, SOCKS5 with authentication</span></p></div>
+        </div>
+
+        <div class="box-success">
+            <strong><span class="lang-ar">💡 نصيحة ذهبية:</span><span class="lang-en" style="display:none;">💡 Golden Tip:</span></strong>
+            <span class="lang-ar">استخدم <strong>التحميل متعدد التوصيلات</strong> لتقسيم الملفات إلى 4-16 جزء وتحميلها بشكل متوازي لزيادة السرعة حتى 8 أضعاف!</span>
+            <span class="lang-en" style="display:none;">Use <strong>Multi-Connection Download</strong> to split files into 4-16 segments and download them in parallel for up to 8x faster speeds!</span>
+        </div>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- TROUBLESHOOTING -->
+    <!-- ============================================================ -->
+    <div class="section" id="troubleshooting">
+        <h2><span class="icon">🛠️</span> <span class="lang-ar">حل المشكلات</span><span class="lang-en" style="display:none;">Troubleshooting</span></h2>
+
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr><th><span class="lang-ar">المشكلة</span><span class="lang-en" style="display:none;">Issue</span></th><th><span class="lang-ar">الحل</span><span class="lang-en" style="display:none;">Solution</span></th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><span class="lang-ar">التحميل لا يبدأ</span><span class="lang-en" style="display:none;">Download Doesn't Start</span></td><td><span class="lang-ar">تحقق من اتصال الإنترنت وجدار الحماية</span><span class="lang-en" style="display:none;">Check internet connection and firewall</span></td></tr>
+                    <tr><td><span class="lang-ar">فشل تحميل 4K</span><span class="lang-en" style="display:none;">4K Video Fails</span></td><td><span class="lang-ar">ثبّت ffmpeg (موجود مع MDM)</span><span class="lang-en" style="display:none;">Install ffmpeg (bundled with MDM)</span></td></tr>
+                    <tr><td><span class="lang-ar">الإضافة لا تعمل</span><span class="lang-en" style="display:none;">Extension Not Working</span></td><td><span class="lang-ar">تأكد من تشغيل MDM وأن المنفذ 8765 مفتوح</span><span class="lang-en" style="display:none;">Ensure MDM is running and port 8765 is open</span></td></tr>
+                    <tr><td><span class="lang-ar">بطء التحميل</span><span class="lang-en" style="display:none;">Slow Downloads</span></td><td><span class="lang-ar">تحقق من حدود السرعة وحصة النطاق الترددي</span><span class="lang-en" style="display:none;">Check speed limits and bandwidth quota</span></td></tr>
+                    <tr><td><span class="lang-ar">خطأ في سلامة الملف</span><span class="lang-en" style="display:none;">File Integrity Error</span></td><td><span class="lang-ar">أعد تحميل الملف</span><span class="lang-en" style="display:none;">Redownload the file</span></td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- CONNECT -->
+    <!-- ============================================================ -->
+    <div class="section" id="connect">
+        <h2><span class="icon">📱</span> <span class="lang-ar">تواصل معنا</span><span class="lang-en" style="display:none;">Connect With Us</span></h2>
+        <p style="text-align:center; color:#888; margin-bottom:15px;"><span class="lang-ar">📲 تابعنا للتحديثات والدعم</span><span class="lang-en" style="display:none;">📲 Follow Us for Updates & Support</span></p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=61562014983841">📘 Facebook</a>
+            <a href="https://youtube.com/@kamel_ahmed">▶️ YouTube</a>
+            <a href="https://paypal.me/kamelahmed306">💝 PayPal</a>
+            <a href="https://github.com/kezoooop">🐙 GitHub</a>
+            <a href="https://x.com/the_starkk">🐦 Twitter/X</a>
+            <a href="https://linkedin.com/in/kamel-ahmed-a844352aa">🔗 LinkedIn</a>
+            <a href="https://kamelahmed.netlify.app">🌐 Website</a>
+        </div>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- DEVELOPER -->
+    <!-- ============================================================ -->
+    <div class="section" id="developer">
+        <h2><span class="icon">👨‍💻</span> <span class="lang-ar">عن المطور</span><span class="lang-en" style="display:none;">About the Developer</span></h2>
+        <div style="text-align:center; padding:10px;">
+            <h3 style="color:#ffd54f; margin:0;">Kamel Ahmed</h3>
+            <p style="color:#aaa; margin-top:0;"><span class="lang-ar">مهندس برمجيات ومطور | محلل أمني وخبير ثغرات</span><span class="lang-en" style="display:none;">Software Engineer & Developer | Code Security Analyst & Vulnerability Expert</span></p>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:8px; margin-top:12px; text-align:center;">
+                <div style="background:#1a1a1a; padding:10px; border-radius:8px;">🎓 <span class="lang-ar">الأكاديمية البريطانية لعلوم الكمبيوتر، لندن</span><span class="lang-en" style="display:none;">British Academy of Computer Science, London</span></div>
+                <div style="background:#1a1a1a; padding:10px; border-radius:8px;">🛡️ <span class="lang-ar">أول برنامج أمني عربي بـ 10M+ تحميلات</span><span class="lang-en" style="display:none;">First Arabic security program with 10M+ downloads</span></div>
+                <div style="background:#1a1a1a; padding:10px; border-radius:8px;">✍️ <span class="lang-ar">محرر تقني أول - منصة Xdev</span><span class="lang-en" style="display:none;">Senior Technical Editor - Xdev Platform</span></div>
+                <div style="background:#1a1a1a; padding:10px; border-radius:8px;">📚 <span class="lang-ar">رئيس ومحاضر - برنامج مصر الرقمية</span><span class="lang-en" style="display:none;">Head & Lecturer - Digital Egypt Program</span></div>
+            </div>
+        </div>
+        <div style="text-align:center; margin-top:20px;">
+            <a href="https://paypal.me/kamelahmed306" class="btn btn-primary">❤️ <span class="lang-ar">ادعم المطور</span><span class="lang-en" style="display:none;">Support the Developer</span></a>
+        </div>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- STATISTICS -->
+    <!-- ============================================================ -->
+    <div class="section" id="stats">
+        <h2><span class="icon">📈</span> <span class="lang-ar">إحصائيات</span><span class="lang-en" style="display:none;">Statistics</span></h2>
+        <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:15px; text-align:center;">
+            <div style="background:#1a1a1a; padding:20px; border-radius:12px;"><div style="font-size:2rem; font-weight:900; color:#ffd54f;">10M+</div><div style="color:#888;"><span class="lang-ar">إجمالي التحميلات</span><span class="lang-en" style="display:none;">Total Downloads</span></div></div>
+            <div style="background:#1a1a1a; padding:20px; border-radius:12px;"><div style="font-size:2rem; font-weight:900; color:#ffd54f;">50+</div><div style="color:#888;"><span class="lang-ar">المواقع المدعومة</span><span class="lang-en" style="display:none;">Supported Sites</span></div></div>
+            <div style="background:#1a1a1a; padding:20px; border-radius:12px;"><div style="font-size:2rem; font-weight:900; color:#ffd54f;">8x</div><div style="color:#888;"><span class="lang-ar">السرعة القصوى</span><span class="lang-en" style="display:none;">Max Speed</span></div></div>
+            <div style="background:#1a1a1a; padding:20px; border-radius:12px;"><div style="font-size:2rem; font-weight:900; color:#ffd54f;">2</div><div style="color:#888;"><span class="lang-ar">اللغات</span><span class="lang-en" style="display:none;">Languages</span></div></div>
+        </div>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- SEO TEXT - ARABIC -->
+    <!-- ============================================================ -->
+    <div class="section seo-text lang-ar">
+        <strong>مدير التحميلات المتقدم - أفضل برنامج تحميل فيديوهات وملفات للويندوز</strong><br><br>
+        هل تبحث عن أفضل مدير تحميل للويندوز؟ My Download Manager هو الحل الأمثل لتحميل الفيديوهات والريلز من تيك توك، انستجرام، فيسبوك، يوتيوب، سناب شات، تويتر وأكثر من 50 منصة تواصل اجتماعي. يتميز البرنامج بسرعة تحميل فائقة تصل إلى 8 أضعاف السرعة العادية، مع دعم جودة 4K فائقة الوضوح.<br><br>
+        يتيح لك MDM تحميل قوائم تشغيل كاملة من يوتيوب بنقرة واحدة، وتنظيم الملفات تلقائياً في مجلدات ذكية حسب المصدر والنوع. كما يدعم استئناف التحميلات المتقطعة، والتحكم في سرعة التحميل، وجدولة التحميلات في أوقات محددة، وإيقاف تشغيل الكمبيوتر تلقائياً بعد اكتمال التحميلات.<br><br>
+        مع واجهة سهلة الاستخدام تدعم اللغتين العربية والإنجليزية، وإضافة متصفح تلتقط التحميلات بنقرة واحدة، يعتبر MDM الخيار الأول لملايين المستخدمين حول العالم. حمّل الآن واستمتع بتجربة تحميل فائقة السرعة والكفاءة!<br><br>
+        <strong>الكلمات المفتاحية:</strong> مدير التحميلات، تحميل فيديوهات، تحميل من يوتيوب، تحميل من تيك توك، تحميل من انستجرام، تحميل من فيسبوك، تحميل 4K، تحميل قوائم تشغيل، مسرع تحميل، أفضل برنامج تحميل للويندوز، تحميل ريلز، تحميل شورتس، مدير تحميل متقدم، تحميل ملفات، تحميل تورنت.
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- SEO TEXT - ENGLISH -->
+    <!-- ============================================================ -->
+    <div class="section seo-text lang-en" style="display:none;">
+        <strong>My Download Manager - Best Video and File Downloader for Windows</strong><br><br>
+        Are you looking for the best download manager for Windows? My Download Manager (MDM) is the ultimate solution for downloading videos, reels, and content from TikTok, Instagram, Facebook, YouTube, Snapchat, Twitter, and 50+ social media platforms. The software features lightning-fast download speeds up to 8x faster than normal, with support for stunning 4K quality.<br><br>
+        MDM allows you to download entire YouTube playlists with one click, automatically organize files into smart folders by source and type. It also supports resuming interrupted downloads, speed limiting, scheduling downloads at specific times, and automatically shutting down your computer after downloads complete.<br><br>
+        With an easy-to-use interface supporting both Arabic and English, and a browser extension that captures downloads with one click, MDM is the top choice for millions of users worldwide. Download now and experience ultra-fast, efficient downloading!<br><br>
+        <strong>Keywords:</strong> download manager, video downloader, YouTube downloader, TikTok downloader, Instagram downloader, Facebook downloader, 4K video downloader, playlist downloader, download accelerator, best download manager for Windows, reel downloader, shorts downloader, advanced download manager, file downloader, torrent downloader.
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- FOOTER -->
+    <!-- ============================================================ -->
+    <footer class="footer">
+        <p>
+            <span class="lang-ar">© 2026 My Download Manager - الإصدار النهائي المطور. جميع الحقوق محفوظة.</span>
+            <span class="lang-en" style="display:none;">© 2026 My Download Manager - Ultimate Final Edition. All rights reserved.</span>
+        </p>
+        <p style="margin-top:5px;">
+            <span class="lang-ar">تم الإنتاج بحب ❤️ بواسطة <a href="https://kamelahmed.netlify.app">كامل أحمد</a></span>
+            <span class="lang-en" style="display:none;">Made with ❤️ by <a href="https://kamelahmed.netlify.app">Kamel Ahmed</a></span>
+        </p>
+        <p style="margin-top:8px; font-size:0.8rem; color:#444;">
+            <a href="#top" style="color:#555;">⬆️ <span class="lang-ar">العودة للأعلى</span><span class="lang-en" style="display:none;">Back to Top</span></a>
+        </p>
+    </footer>
+
+</div>
+
+<!-- ============================================================ -->
+<!-- JAVASCRIPT - Language Toggle -->
+<!-- ============================================================ -->
+<script>
+    function switchLang(lang) {
+        // Update body direction
+        document.body.className = (lang === 'ar') ? 'rtl' : 'ltr';
+        
+        // Update active button
+        document.querySelectorAll('.lang-toggle button').forEach(btn => {
+            btn.classList.remove('active');
+        });
+        if (lang === 'ar') {
+            document.querySelector('.lang-toggle button:first-child').classList.add('active');
+        } else {
+            document.querySelector('.lang-toggle button:last-child').classList.add('active');
+        }
+        
+        // Show/hide elements
+        document.querySelectorAll('.lang-ar').forEach(el => {
+            el.style.display = (lang === 'ar') ? '' : 'none';
+        });
+        document.querySelectorAll('.lang-en').forEach(el => {
+            el.style.display = (lang === 'en') ? '' : 'none';
+        });
+        
+        // Also handle elements with both classes directly
+        // For table rows and other elements
+        document.querySelectorAll('.lang-ar, .lang-en').forEach(el => {
+            // Already handled above
+        });
+        
+        // Store preference
+        localStorage.setItem('mdm-lang', lang);
+    }
+    
+    // Load saved language preference
+    document.addEventListener('DOMContentLoaded', function() {
+        const savedLang = localStorage.getItem('mdm-lang');
+        if (savedLang && savedLang !== 'ar') {
+            switchLang(savedLang);
+        }
+    });
+</script>
+
+</body>
+</html>
