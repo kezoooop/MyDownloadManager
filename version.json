@@ -1,33 +1,33 @@
 {
-  "latest_version": "3.5",
-  "download_url": "https://github.com/kezoooop/MyDownloadManager/releases/download/v3.5/MDM.Setup.V3.5.exe",
+  "latest_version": "3.6",
+  "download_url": "https://github.com/kezoooop/MyDownloadManager/releases/download/v3.6/MDM.Setup.V3.6.exe",
   "release_notes": {
-    "ar": "✨ ميزات جديدة:\n- تحميل محسّن للفيديوهات والريلز من فيسبوك وتيك توك وانستجرام ويوتيوب\n- تحميل التورنت مع DHT و PeX سريع ومستقر مع دعم السحب والإفلات\n- إضافة MDM على متجر Microsoft Edge الرسمي\n- تصنيف فيديو محسّن مع خيارات تنظيم ذكية\n- معلومات ملف محسّنة مع رابط قابل للنسخ وعرض تفصيلي\n- نظام تقييم ومراجعة مدمج لتجربة مستخدم أفضل\n- سحب وإفلات ملفات التورنت للتحميل التلقائي\n- تحديث الأيقونات وتحويل PNG إلى ICO\n- إيقاف واستئناف التورنت\n- نسخ رابط التورنت والتحميل فوراً\n- سرعة إنترنت محسنة\n- تحميل فيديوهات Dailymotion بجودة 4K\n- زر إعادة التحميل للملفات المكتملة\n- مراقبة السرعة في شريط المهام\n- شاشة خروج محسنة مع رسوم متحركة\n- استيراد تحميلات مجمعة من CSV/TXT\n- إدارة الطاقة والبطارية مع إيقاف تلقائي\n- تقليل حجم البرنامج من 300 ميجابايت إلى 77 ميجابايت\n\n🚀 تحسينات:\n- تحسين جلب الفيديوهات والريلز (تيك توك، انستجرام، فيسبوك، يوتيوب)\n- التقط تلقائي أذكى من الحافظة\n- دعم أحدث إصدار من Quick-Share\n- تحسين تصنيف الفيديو مع مجلدات ذكية\n- تحسين نافذة معلومات التحميل\n- إصلاحات التحميل متعدد الخيوط للملفات الكبيرة\n- تحديثات من داخل التطبيق\n- ضغط UPX المتقدم لتقليل حجم الملف\n\n🐛 إصلاحات:\n- إصلاح اكتشاف اسم الملف\n- إصلاح مشكلة تسمية الملفات\n- إصلاح تسرب الذاكرة\n- تحسين معالجة الأخطاء\n- إصلاح مشكلة إلغاء القفل عن بعد",
-    "en": "✨ NEW FEATURES:\n- Enhanced video and reels downloading from Facebook, TikTok, Instagram & YouTube\n- Torrent download with DHT & PeX fast and stable with drag & drop support\n- MDM extension on Microsoft Edge Store\n- Enhanced \"Video\" Category with smart organization options\n- Enhanced file download info with copyable URL and detailed view\n- Built-in Review & Rating System for better user experience\n- Drag & drop torrent files for auto-download\n- Updated icons with PNG to ICO conversion\n- Torrent pause and resume\n- Copy torrent URL and download immediately\n- Enhanced internet speed\n- Dailymotion video download with 4K support\n- Re-Download button for completed files\n- System tray live speed monitor\n- Enhanced exit screen with animations\n- Bulk download import from CSV/TXT files\n- Power & Battery management with auto-pause\n- App size reduced from 300MB to 77MB\n\n🚀 IMPROVEMENTS:\n- Enhanced video and reels grabbing (TikTok, Instagram, Facebook, YouTube)\n- Smarter auto-capture from clipboard\n- Quick-Share latest version support\n- Enhanced Video Category with smart folders\n- Enhanced Download File Info window\n- Multi-threading fixes for large files\n- In-app updates via Check Updates button\n- Advanced UPX compression for smaller file size\n\n🐛 BUG FIXES:\n- Fixed filename detection without headers\n- Fixed file naming issue\n- Fixed memory leak in multi-connection downloader\n- Improved error handling for failed downloads\n- Fixed remote unlock issue"
+    "ar": "✨ ميزات جديدة:\n- إضافة جودات 144P و 240P للفيديو\n- تحويل الفيديو إلى جميع أنواع الصوت (MP3, M4A, WAV, FLAC, OGG, AAC, OPUS)\n- اختيار جودة الصوت (64, 96, 128, 192, 256, 320 kbps)\n- تحويل قوائم التشغيل إلى صوت مع اختيار النوع والجودة\n- تحويل الريلز والفيديوهات القصيرة إلى صوت مباشر\n- خيار جديد في الإعدادات لتحويل الفيديو إلى صوت تلقائياً\n- تحميل محسّن للفيديوهات والريلز من فيسبوك وتيك توك وانستجرام ويوتيوب\n- تحميل التورنت مع DHT و PeX سريع ومستقر مع دعم السحب والإفلات\n- إضافة MDM على متجر Microsoft Edge الرسمي\n- تصنيف فيديو محسّن مع خيارات تنظيم ذكية\n- معلومات ملف محسّنة مع رابط قابل للنسخ وعرض تفصيلي\n- نظام تقييم ومراجعة مدمج لتجربة مستخدم أفضل\n- سحب وإفلات ملفات التورنت للتحميل التلقائي\n- تحديث الأيقونات وتحويل PNG إلى ICO\n- إيقاف واستئناف التورنت\n- نسخ رابط التورنت والتحميل فوراً\n- سرعة إنترنت محسنة\n- تحميل فيديوهات Dailymotion بجودة 4K\n- زر إعادة التحميل للملفات المكتملة\n- مراقبة السرعة في شريط المهام\n- شاشة خروج محسنة مع رسوم متحركة\n- استيراد تحميلات مجمعة من CSV/TXT\n- إدارة الطاقة والبطارية مع إيقاف تلقائي\n- تقليل حجم البرنامج من 300 ميجابايت إلى 77 ميجابايت\n\n🚀 تحسينات:\n- تحسين جلب الفيديوهات والريلز (تيك توك، انستجرام، فيسبوك، يوتيوب)\n- التقط تلقائي أذكى من الحافظة\n- دعم أحدث إصدار من Quick-Share\n- تحسين تصنيف الفيديو مع مجلدات ذكية\n- تحسين نافذة معلومات التحميل\n- إصلاحات التحميل متعدد الخيوط للملفات الكبيرة\n- تحديثات من داخل التطبيق\n- ضغط UPX المتقدم لتقليل حجم الملف\n- تحسين واجهة تحويل الصوت\n\n🐛 إصلاحات:\n- إصلاح اكتشاف اسم الملف\n- إصلاح مشكلة تسمية الملفات\n- إصلاح تسرب الذاكرة\n- تحسين معالجة الأخطاء\n- إصلاح مشكلة إلغاء القفل عن بعد",
+    "en": "✨ NEW FEATURES:\n- Added 144P and 240P video quality options\n- Convert video to all audio formats (MP3, M4A, WAV, FLAC, OGG, AAC, OPUS)\n- Audio quality selection (64, 96, 128, 192, 256, 320 kbps)\n- Playlist to audio conversion with format and quality selection\n- Reels and short videos to audio conversion in real-time\n- New settings option for auto video to audio conversion\n- Enhanced video and reels downloading from Facebook, TikTok, Instagram & YouTube\n- Torrent download with DHT & PeX fast and stable with drag & drop support\n- MDM extension on Microsoft Edge Store\n- Enhanced Video Category with smart organization options\n- Enhanced file download info with copyable URL and detailed view\n- Built-in Review & Rating System for better user experience\n- Drag & drop torrent files for auto-download\n- Updated icons with PNG to ICO conversion\n- Torrent pause and resume\n- Copy torrent URL and download immediately\n- Enhanced internet speed\n- Dailymotion video download with 4K support\n- Re-Download button for completed files\n- System tray live speed monitor\n- Enhanced exit screen with animations\n- Bulk download import from CSV/TXT files\n- Power & Battery management with auto-pause\n- App size reduced from 300MB to 77MB\n\n🚀 IMPROVEMENTS:\n- Enhanced video and reels grabbing (TikTok, Instagram, Facebook, YouTube)\n- Smarter auto-capture from clipboard\n- Quick-Share latest version support\n- Enhanced Video Category with smart folders\n- Enhanced Download File Info window\n- Multi-threading fixes for large files\n- In-app updates via Check Updates button\n- Advanced UPX compression for smaller file size\n- Improved audio conversion UI\n\n🐛 BUG FIXES:\n- Fixed filename detection without headers\n- Fixed file naming issue\n- Fixed memory leak in multi-connection downloader\n- Improved error handling for failed downloads\n- Fixed remote unlock issue"
   },
-  "release_date": "2026-07-20",
+  "release_date": "2026-07-22",
   "min_version": "1.4.0",
   "force_update": false,
   "app_size": "83 MB",
   "app_size_mb": 83,
   "changes": {
     "ar": [
-      "تحميل محسّن للفيديوهات والريلز من فيسبوك وتيك توك وانستجرام ويوتيوب",
-      "تحميل التورنت مع DHT و PeX سريع ومستقر مع دعم السحب والإفلات",
-      "إضافة MDM على متجر Microsoft Edge الرسمي",
-      "تصنيف فيديو محسّن مع خيارات تنظيم ذكية",
-      "معلومات ملف محسّنة مع رابط قابل للنسخ وعرض تفصيلي",
-      "نظام تقييم ومراجعة مدمج لتجربة مستخدم أفضل",
-      "سحب وإفلات ملفات التورنت للتحميل التلقائي"
+      "إضافة جودات 144P و 240P للفيديو",
+      "تحويل الفيديو إلى جميع أنواع الصوت (MP3, M4A, WAV, FLAC, OGG, AAC, OPUS)",
+      "اختيار جودة الصوت (64, 96, 128, 192, 256, 320 kbps)",
+      "تحويل قوائم التشغيل إلى صوت مع اختيار النوع والجودة",
+      "تحويل الريلز والفيديوهات القصيرة إلى صوت مباشر",
+      "خيار جديد في الإعدادات لتحويل الفيديو إلى صوت تلقائياً",
+      "تحميل محسّن للفيديوهات والريلز من فيسبوك وتيك توك وانستجرام ويوتيوب"
     ],
     "en": [
-      "Enhanced video and reels downloading from Facebook, TikTok, Instagram & YouTube",
-      "Torrent download with DHT & PeX fast and stable with drag & drop support",
-      "MDM extension on Microsoft Edge Store",
-      "Enhanced Video Category with smart organization options",
-      "Enhanced file download info with copyable URL and detailed view",
-      "Built-in Review & Rating System for better user experience",
-      "Drag & drop torrent files for auto-download"
+      "Added 144P and 240P video quality options",
+      "Convert video to all audio formats (MP3, M4A, WAV, FLAC, OGG, AAC, OPUS)",
+      "Audio quality selection (64, 96, 128, 192, 256, 320 kbps)",
+      "Playlist to audio conversion with format and quality selection",
+      "Reels and short videos to audio conversion in real-time",
+      "New settings option for auto video to audio conversion",
+      "Enhanced video and reels downloading from Facebook, TikTok, Instagram & YouTube"
     ]
   }
 }
